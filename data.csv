@@ -831,7 +831,7 @@ Olla Podrida,Spain,"Chickpeas, chorizo, ham hock, beef shank, blood sausage, mor
 Flammekueche,France,"Thin bread dough, crème fraîche, fromage blanc, onions, bacon, nutmeg, black pepper, salt, olive oil (optional), gruyère cheese (optional), mushrooms (optional), chives (optional)","Flammkuchen, Flàmmeküeche, Flammkuche"
 Okoy,Philippines,"Glutinous rice batter, unshelled small shrimp, and various vegetables",Ukoy
 Rubiyan Salad,Oman; Jordan; Bahrain; Palestine; Qatar; Morocco; Yemen; United Arab Emirates; Iraq; Syria; Lebanon; Mauritania; Sudan; Egypt; Libya; Tunisia; Algeria; Kuwait; Saudi Arabia,"Shrimp, lettuce, cucumber, cherry tomatoes, red onion, bell pepper, lemon juice, parsley, olive oil, salt, black pepper.",Jambariyy salad
-Chicken Colombo,Martinique,"Chicken, Colombo spice blend, onion, garlic, ginger, thyme, scallions, eggplant, zucchini, potatoes, vegetable oil, lime juice, salt, black pepper, hot pepper (optional), bay leaf (optional), okra (optional), coconut milk (optional), rice (optional)",Guadeloupe
+Chicken Colombo,Martinique; Guadeloupe, "Chicken, Colombo spice blend, onion, garlic, ginger, thyme, scallions, eggplant, zucchini, potatoes, vegetable oil, lime juice, salt, black pepper, hot pepper (optional), bay leaf (optional), okra (optional), coconut milk (optional), rice (optional)",
 Jinhua Ham,China,"Pork leg, salt, sugar (optional), sodium nitrate (optional).","Kinhwa, Chinhua ham"
 Jhunka,India,"Chickpea flour, mustard seeds, cumin seeds, turmeric powder, asafoetida, green chilies, onions, curry leaves, coriander leaves, salt, oil, water, (optional) garlic, (optional) ginger, (optional) tomatoes, (optional) lime juice, (optional) red chili powder","Zunka, pithla or pithle"
 Lanttulaatikko,Finland,"Rutabaga, breadcrumbs, cream, eggs, butter, syrup, salt, pepper, nutmeg, allspice, (optional) cinnamon, (optional) ginger, (optional) onions.",
@@ -2499,3 +2499,503 @@ Medisterpølse,Denmark,"Pork, suet",
 Deep-fried Mars Bar,United Kingdom,"Mars Bar, flour, cornstarch (optional), baking powder, salt, water, milk (optional), eggs (optional), oil for frying",
 Reibekuchen,Germany,"Potatoes, onions, eggs, flour, salt, pepper, oil, applesauce (optional), sour cream (optional).",Kartoffelpuffer
 Pamplona,Uruguay,"Pork or chicken or beef, ham, cheese, bell peppers, garlic, olives (optional), bacon (optional).",Pamplona de cerdo
+Madumongso,Indonesia,"black glutinous rice, sweet fermentation starter, coconut milk, palm sugar, granulated sugar, pandan leaves, salt, white glutinous rice (optional)",Madumangsa
+Teurgoule,France,"Rice, milk, sugar, cinnamon, vanilla (optional), butter (optional), nutmeg (optional).","Teurt-goule, torgoule, bourre-guele, terrinée"
+Khao phat kaphrao mu,Thailand,"Pork, basil, garlic, chili peppers, fish sauce, oyster sauce, soy sauce, sugar, vegetable oil, white rice, lime wedges (optional), fried egg (optional), cucumber slices (optional).",Thai Fried Rice
+Ogok-bap,North Korea; South Korea,"Glutinous rice, millet, red beans, black beans, sorghum, [chestnuts (optional)], [peas (optional)], [other mixed grains (optional)]",Five-grain rice
+Istrian Stew,Croatia; Italy; Slovenia,"Beans, sauerkraut, potatoes, bacon, spare ribs, garlic",Jota
+Chanpurū,Japan,"Pork belly, tofu, bitter melon, carrots, eggs, cabbage, bean sprouts, green onions, salt, pepper, soy sauce",チャンプルー
+Arany Galuska,Hungary,"Flour, yeast, milk, butter, eggs, sugar, salt, vanilla sugar, lemon zest, oil, breadcrumbs",Aranygaluska
+Sharbat (drink),Oman; Jordan; Pakistan; Sri Lanka; Bangladesh; Bahrain; Palestine; Qatar; Morocco; Yemen; Bosnia and Herzegovina; Comoros; India; Afghanistan; United Arab Emirates; Iraq; Djibouti; Syria; Lebanon; Iran; Mauritania; Sudan; Egypt; Libya; Somalia; Tunisia; Turkey; Algeria; Kuwait; Saudi Arabia,"Water, Sugar, Rose Water, Lemon Juice, Ice Cubes, (optional: Falooda, Basil Seeds, Fruits, Syrups, Herbs)",
+Zarda,Pakistan; Bangladesh; India,"Basmati rice, sugar, milk, ghee, green cardamom, cloves, saffron, rose water, kewra water, pistachios, almonds, raisins, coconut, food coloring (optional), silver vark (optional).","Zorda, jarda, jorda"
+Klepon,Indonesia,"Glutinous rice flour, coconut, palm sugar, pandan leaves",
+Pininyahang Manok,Philippines,"Chicken, pineapple chunks, pineapple juice, coconut milk, fish sauce, onions, garlic, bell peppers, carrots, potatoes, green peas, salt, pepper,{optional: soy sauce, ginger, tomatoes, cream, patis (fermented fish sauce)}",Pineapple chicken
+Chalupa,Mexico,"Corn masa dough, pork or chicken, refried beans, shredded lettuce, salsa, queso fresco or cotija cheese, sour cream, onion, tomatoes, avocado, lime, cilantro, jalapeño (optional), pickled jalapeños (optional).",
+Dodo Ikire,Nigeria,"Overripe plantains, palm oil, chili pepper, salt, sugar (optional).",
+Colombia,Canada,"Vodka, blue curaçao, banana liqueur, orange juice, grenadine, ice, cherry (optional)",
+Mitmita,Ethiopia,"Bird's eye chili peppers, cardamom, cloves, black cumin, salt, cinnamon, ginger, (optional: black pepper).",
+Siskonmakkarakeitto,Finland,"Siskonmakkara sausages, potatoes, carrots, leeks, celery, stock, bay leaves, allspice, black pepper, salt, parsley, dill (optional), onions (optional), garlic (optional), turnips (optional).",
+Bsisa,Libya; Tunisia; Algeria,"Barley flour, wheat flour, fenugreek seeds, anise seeds, caraway seeds, coriander seeds, olive oil, honey, dates, almonds (optional), hazelnuts (optional).",
+Sausage Gravy,United States,"Sausage, Flour, Milk, Salt, Black Pepper, Butter (optional), Red Pepper Flakes (optional), Garlic Powder (optional), Onion Powder (optional)",
+Callaloo,Jamaica; Antigua and Barbuda; Barbados; Saint Vincent and the Grenadines; Saint Lucia; Bahamas; Grenada; Haiti; Trinidad and Tobago; Dominica; Dominican Republic; Saint Kitts and Nevis; Cuba,"Okra, dasheen leaves (taro leaves), coconut milk, onions, garlic, thyme, scotch bonnet pepper, salt, black pepper","Kallaloo, Calaloo, Calalloo, Calaloux or Callalloo"
+Boliche,Cuba,"Beef eye round roast, garlic, olive oil, onions, green bell pepper, tomatoes, white wine, ham, pimento-stuffed green olives, potatoes (optional), carrots (optional)",
+Milanesa Napolitana,Argentina,"Beef cutlet, flour, eggs, breadcrumbs, salt, black pepper, ham, mozzarella cheese, tomato sauce, oregano, garlic (optional), vegetable oil (for frying), parmesan cheese (optional), parsley (optional), green olives (optional)",
+Black Forest Gateau,Germany,"Chocolate sponge cake, whipped cream, cherries, kirsch, chocolate shavings, sugar, eggs, flour, cocoa powder, butter, vanilla extract, cherry syrup (optional), cornflour (optional), baking powder (optional).",Black Forest cake
+Aguadito De Pollo,Peru,"Chicken, rice, cilantro, garlic, onion, bell pepper, peas, carrots, aji amarillo paste, chicken broth, cumin, salt, pepper, potatoes [optional], corn [optional], lime [optional]",
+Pupusa,Nicaragua; Belize; Panama; Guatemala; Costa Rica; Honduras; El Salvador,"Corn masa, water, salt, queso, refried beans, chicharrón, loroco, (optional) jalapeños, (optional) zucchini, (optional) pumpkin seeds, (optional) loroco flowers.",
+Coffin Bread,Taiwan,"Texas toast style bread, protein (chicken, seafood, tripe, and/or mushroom), vegetables (bamboo shoots, carrots, peas, and/or corn)","Coffin lid, coffin board"
+Chả rươi,Vietnam,"Sand worm, pork, egg, dill, scallion, fish sauce, pepper, ginger (optional), tangerine peel (optional), chili (optional)",Sand worm omelette
+Chicken Chettinad,India,"Chicken, oil, mustard seeds, cinnamon, cloves, cardamom, curry leaves, onions, ginger, garlic, tomatoes, turmeric powder, red chili powder, coriander powder, cumin seeds, fennel seeds, grated coconut, poppy seeds, black peppercorns, lemon juice, salt, coriander leaves, green chilies, (optional: star anise, bay leaves, tamarind paste, cashew nuts, yogurt).",Chettinadin Chicken
+Olivier Salad,Russia,"potatoes, carrots, peas, pickles, boiled eggs, cooked chicken or ham, green onions, mayonnaise, mustard, salt, pepper","Russian salad, Stolichny salad"
+Taco Salad,United States,"Ground beef, lettuce, tomatoes, cheddar cheese, tortilla chips, black beans (optional), salsa (optional), avocado (optional), olives (optional), sour cream (optional), jalapeños (optional), onion (optional), cilantro (optional).",Taco bowl
+Bagel De Montréal,Canada,"Flour, water, sugar, yeast, eggs, honey, malt, oil, salt, sesame seeds (optional), poppy seeds (optional).",
+Huitlacoche,Mexico,"Corn, Corn kernels, Huitlacoche, Cornmeal, Cornstarch",Corn Smut
+Balut,Cambodia; Philippines; Vietnam; Laos; Thailand,"Fertilized duck egg, water, fertilized chicken egg (optional), salt, black pepper (optional), white pepper (optional), vinegar (optional), chili (optional), garlic (optional), lime juice (optional), lemon juice (optional), ginger (optional), coriander (optional), mint (optional)",
+Semur,Indonesia,"Beef, soy sauce, sweet soy sauce, garlic, shallots, nutmeg, cloves, cinnamon, star anise, lemongrass, bay leaves, kecap manis, coconut sugar, salt, pepper, water",Smoor (Dutch dialect)
+Malidzano,North Macedonia,"Eggplants, garlic, olive oil, sunflower oil, green bell peppers, salt, lemon juice, walnuts, feta cheese (optional), yogurt (optional).",
+Cendol,Brunei; Malaysia; Cambodia; Vietnam; Indonesia; Laos; Myanmar; Singapore; Timor-Leste; Thailand,"Rice flour, mung bean flour, pandan leaves, coconut milk, palm sugar, shaved ice, (optional) red beans, (optional) jackfruit, (optional) durian, (optional) sweet corn","es cendol (West Java, Indonesia), dawet (Central and East Java, Indonesia), cindua (West Sumatra, Indonesia), wikt:ลอดช่อง, wikt:bánh lọt, បង្អែមលត (bang-aem lot) or នំលត (nom lot) (Cambodia), ລອດຊ່ອງ (lod song) (Laos), wikt:မုန့်လက်ဆောင်း, chendol (Singapore), cendol (Malaysia), sindul (Mindanao, Philippines)"
+Mac and cheese,United States; United Kingdom; Canada,"Macaroni, cheddar cheese, milk, butter, flour, salt, black pepper, mustard (optional), breadcrumbs (optional), cream (optional), other cheeses (optional), nutmeg (optional), paprika (optional)","Mac and cheese, macaroni pie, macaroni cheese"
+Gigantes Plaki,Greece,"Giant beans, tomatoes, onions, garlic, olive oil, carrots, celery, parsley, bay leaves, dill, oregano, mint (optional), lemon juice (optional), red pepper flakes (optional).",
+Chipa so'o,Paraguay,"Corn flour, cheese, beef, onions, lard, eggs, milk, salt, (optional: butter, anise seeds, garlic, baking powder, scallions, parsley)",
+Snowball,United Kingdom,"Advocaat, lemonade, lime juice (optional), maraschino cherry (optional), ice (optional)",
+Kūlolo,United States,"Taro, coconut milk, sugar, (optional banana leaves)","Piele, piepiele"
+Ohio Valley style Pizza,United States,"Pizza dough, tomato sauce, provolone cheese, mozzarella cheese, raw toppings such as green peppers, mushrooms, onions, pepperoni, (optional) sausage, (optional) hot peppers, (optional) olives.",
+Malidzano,North Macedonia,"Eggplants, garlic, olive oil, sunflower oil, green bell peppers, salt, lemon juice, walnuts, feta cheese (optional), yogurt (optional).",
+Surströmming,Sweden,"Baltic herring, Water, Salt",Fermented herring
+Chapssal Doughnut,North Korea; South Korea,"Glutinous rice flour, water, sugar, salt, yeast, red bean paste, oil, (sesame seeds optional), (coconut flakes optional).",Glutinous rice doughnut
+Meeshay,Myanmar,"Rice noodles, meat (chicken or pork) sauce, bean sprouts, rice flour gel, onions, garlic, chickpea flour, coriander","Mi shay, mee shay, mee shei"
+Abacus Seeds,China,"Tapioca starch, water, cornstarch, sunflower oil, salt",
+Jansson's Temptation,Sweden,"Potatoes, onions, anchovies, heavy cream, breadcrumbs, butter, milk, salt, pepper, dill (optional), garlic (optional)",Janssons frestelse
+Casoncelli,Italy,"Pasta dough, flour, eggs, ground pork, ground beef, breadcrumbs, Parmesan cheese, garlic, parsley, nutmeg, butter, sage, pancetta, black pepper, milk, (optional) amaretto cookies, (optional) pear, (optional) raisins.",Casonsèi
+Poutine Râpée,Canada,"Potatoes, pork, salt, pepper, flour, onions (optional), bacon (optional)",
+Tyrolean Grey Cheese,Austria; Italy,"Skimmed milk, salt, (optional) pepper, (optional) herbs.",Tiroler Graukäse
+Brik,Western Sahara; Morocco; Mauritania; Libya; Algeria; Tunisia,"Tuna, egg, parsley, onion, capers, lemon juice, harissa, salt, pepper, brik pastry, vegetable oil, potatoes (optional), cheese (optional), olives (optional)",
+Htamin Jin,Myanmar,"Rice, pickled tea leaves, sesame seeds, peanuts, garlic, green chilies, peanut oil, fish sauce, dried shrimp, coriander leaves, lime juice, tomato, fried onions, boiled egg (optional), chili powder (optional), cucumber (optional).",
+Patty Melt,United States,"Ground beef, rye bread, Swiss cheese, onions, butter, salt, pepper, Worcestershire sauce, [American cheese], [gruyère cheese], [mayonnaise]",
+Curanto,Chile,"Shellfish, fish, pork, chicken, potato, milcao, chapalele, vegetables, white wine, sausage, (optional: chorizo, piure, nalca leaves, spices)",
+Akhni,Bhutan; Pakistan; Sri Lanka; Nepal; Bangladesh; Maldives; India,"Rice, meat, onions, garlic, tomatoes, yogurt, ghee, cumin, coriander, ginger, turmeric, cardamom, cinnamon, cloves, salt, pepper, green chilies, saffron (optional), lemon (optional), mint (optional), bay leaves, potatoes (optional), peas (optional).",
+Kalehjoosh,Kyrgyzstan; Armenia; Uzbekistan; Azerbaijan; Tajikistan; Kazakhstan; Iran; Turkmenistan; Turkey,"Kashk, onions, walnuts, garlic, turmeric, mint, water, salt, pepper, oil, bread (optional), butter (optional), dried herbs (optional).","Keledoş, Kələcoş, Kalejoosh"
+Thüringer Rostbratwurst,Germany,"Pork, beef, salt, pepper, marjoram, garlic, caraway (optional), nutmeg (optional), mace (optional), lemon zest (optional).",Thuringian Sausage
+Queijadinha,Brazil,"Coconut, condensed milk, sugar, eggs, butter, cheese, all-purpose flour (optional), baking powder (optional), vanilla extract (optional), nutmeg (optional).",
+Kibbeh Nayyeh,Jordan; Palestine; Syria; Lebanon; Cyprus; Turkey,"Lean ground lamb, bulgur wheat, onion, olive oil, salt, black pepper, allspice, cinnamon, marjoram, fresh mint (optional), fresh basil (optional), radishes (optional), scallions (optional), pine nuts (optional).",
+Akpan,Benin; Togo,"Corn flour, water, sugar, millet flour, lemon juice, yogurt (optional), sweetened condensed milk (optional), vanilla extract (optional).",Akassa
+Kulich,Belarus; Georgia; Moldova; Romania; Serbia; North Macedonia; Russia; Ukraine,"Flour, yeast, sugar, milk, butter, eggs, salt, vanilla extract, candied fruits, almonds, raisins, lemon zest, (optional) rum, (optional) saffron, (optional) cardamom, (optional) orange zest, (optional) glaze, (optional) sprinkles.",
+Lacón con patacas e grelos,Spain,"Pork shoulder, potatoes, chorizo, galician chorizo, olive oil, paprika, turnip greens, salt, garlic (optional), bay leaves (optional).",
+Maksalaatikko,Finland,"Rice, liver, onions, butter, eggs, milk, raisins, sugar, salt, white pepper, allspice, breadcrumbs.",
+Dum Aloo,Bangladesh; India,"Potatoes, onions, tomatoes, yogurt, ginger, garlic, green chilies, cumin seeds, cinnamon, cloves, cardamom, turmeric powder, red chili powder, coriander powder, garam masala, kasuri methi (optional), cream (optional), cashew nuts (optional), ghee, salt, oil, cilantro/coriander leaves for garnish",Aloor dum
+Chukauni,Nepal,"Potatoes, yogurt, ginger, garlic, green chili, coriander leaves, salt, cucumber (optional), onions (optional), tomatoes (optional), lemon juice (optional), black pepper (optional)",
+Fricassee,France,"Chicken, onion, garlic, carrots, celery, flour, white wine, chicken stock, egg yolks, lemon juice, parsley, butter, thyme, (mushrooms optional), (peas optional), (cream optional), (bay leaf optional)",
+Rum Baba,France,"Flour, sugar, eggs, butter, yeast, milk, dark rum, water, vanilla extract, apricot jam (optional), whipped cream (optional), fruits (optional)","Baba au rhum, babà or babbà"
+Satsuma-age,Japan,"White fish paste, flour, sugar, salt, sake, soy sauce, egg, vegetable oil, ginger (optional), green onions (optional), carrots (optional), burdock root (optional), tofu (optional)","Eomuk, Tianbula"
+Shuangbaotai,China,"Flour, sugar, baking powder, eggs, sesame seeds, oil, water, (optional) milk, (optional) yeast, (optional) red bean paste.",
+Tube Rice Pudding,Taiwan,"Glutinous rice, water, sugar, coconut milk, pandan leaves, vanilla, cardamom (optional), raisins (optional), nuts (optional).",Tongzi migao
+Canja De Galinha,Cape Verde; Brazil; Portugal; Mozambique,"Chicken, rice, onion, garlic, carrots, potatoes, olive oil, salt, pepper, parsley, cilantro, lemon juice (optional), chicken broth (optional), peas (optional)",Canja
+Chocolate Bullets,Australia; New Zealand,"Licorice, chocolate, sugar, glucose syrup, wheat flour, fat, gelatine, food acids, emulsifiers, vegetable oil, flavors, glazing agents, colors, salt, coconut (optional), caramel (optional).",
+Fiori di zucca,Italy,"Zucchini flowers, ricotta cheese, mozzarella cheese, eggs, flour, salt, olive oil, anchovies (optional), black pepper (optional), Parmesan cheese (optional), nutmeg (optional), lemon zest (optional)",Zucchini Flowers
+Croissant,Austria; France,"dough, butter",
+Sakinalu,India,"Rice flour, sesame seeds, black gram flour, carom seeds, salt, oil, water, chili powder (optional), cumin seeds (optional).",
+Ramune Candy,Japan,"Sugar, glucose syrup, cornstarch, flavorings, citric acid, colorings (optional).",
+Parmesan,Italy,"Milk, enzymes, salt",
+Plăcintă,Moldova; Romania; Ukraine,"Flour, water, salt, yeast, sugar (optional), eggs (optional), milk (optional), butter, oil, cheese (optional), apples (optional), cabbage (optional), potatoes (optional), sour cream (optional), dill (optional), bacon (optional).",
+Biroldo,Italy,"Pig's head, blood, lard, tongue, skin, spices, pine nuts (optional), fennel seeds, cinnamon, nutmeg, cloves, salt, pepper, raisins (optional), garlic (optional).",
+Mettwurst,Germany,"Pork, beef [sometimes], salt, pepper, garlic, marjoram [optional], nutmeg [optional], allspice [optional], coriander [optional], cardamom [optional], mustard seeds [optional]",
+Cachopo,Spain,"Veal, ham, cheese, breadcrumbs, eggs, olive oil, garlic, parsley, salt, pepper, lemon juice (optional), red pepper (optional), mushrooms (optional), asparagus (optional).",
+Pom,Suriname,"Arrowleaf elephant ear root (tannia, new cocoyam), citrus juice, chicken",Pomtajer
+Mee Siam,Malaysia; Singapore,"Rice vermicelli, tamarind paste, dried shrimp, bean sprouts, tofu puffs, shrimp, garlic, shallots, chili paste, lime, eggs, chives, peanuts, coconut milk (optional), chicken (optional).",
+Queijadinha,Brazil,"Coconut, condensed milk, sugar, eggs, butter, cheese, all-purpose flour (optional), baking powder (optional), vanilla extract (optional), nutmeg (optional).",
+Weet-Bix,Australia; New Zealand; South Africa,"Whole grain wheat, sugar, salt, barley malt extract, (optional: milk, honey, fruits, nuts, yogurt)",
+Hayashi Rice,Japan,"Beef, onions, mushrooms, red wine, beef stock, tomato paste, Worcestershire sauce, butter, flour, rice, carrots (optional), peas (optional), soy sauce (optional)",
+Fanesca,Ecuador,"Bacalao, pumpkin, cabbage, corn, fava beans, lentils, peas, peanuts, rice, green beans, sambo, melloco, squash, cheese, milk, onions, garlic, achiote, cilantro, oregano, eggs, plantains, butter, cumin, pepper, (optional: chochos, lupins, cream, potatoes, carrots, leek).",
+Kalari Cheese,India,"Cow's or goats' milk, salt, lime juice or vinegar, water",
+Rogan Josh,India; Pakistan,"Lamb, yogurt, onions, garlic, ginger, tomatoes, Kashmiri red chili, cumin, paprika, cloves, cardamom, cinnamon, coriander, turmeric, salt, garam masala, fresh cilantro",
+Jollof Rice,Gambia; Nigeria; Cape Verde; Sierra Leone; Benin; Ghana; Niger; Guinea; Guinea-Bissau; Mali; Senegal; Burkina Faso; Togo; Ivory Coast; Mauritania; Liberia,"Rice, Onion, Tomato, Tomato Paste, Red bell pepper, Scotch bonnet pepper, Garlic, Ginger, Vegetable oil, Chicken or Stock, Curry powder, Thyme, Bay leaves, Stock cubes, Salt, Black pepper, Smoked paprika, Turmeric, Dried thyme, Dried rosemary, Ground nutmeg",ceebu jën
+Apple Pie,United Kingdom; United States,"Apples, sugar, flour, cinnamon, nutmeg, butter, lemon juice",
+Cabidela,Brazil; Angola; Portugal,"Chicken, rice, chicken blood, white wine, vinegar, garlic, onion, bay leaf, olive oil, salt, black pepper, (optional) parsley, (optional) piri piri.",
+Pappa Al Pomodoro,Italy,"Stale bread, ripe tomatoes, olive oil, garlic, basil, vegetable broth, salt, pepper, onion (optional), parmesan cheese (optional), chili flakes (optional)",
+Cazón En Adobo,Spain,"Dogfish, garlic, pimentón (paprika), vinegar, oregano, salt, flour, olive oil",
+Champurrado,Mexico,"Masa harina, water, milk, piloncillo, chocolate, cinnamon stick, vanilla extract (optional), star anise (optional), cloves (optional).",
+Međimurska Gibanica,Croatia,"Phyllo pastry, cottage cheese, eggs, sugar, apples, poppy seeds, walnuts, sour cream, butter, raisins (optional), lemon zest (optional), vanilla sugar (optional), cinnamon (optional)",Medjimurian layer cake
+Koah-pau,China; Taiwan,"Pork belly, soy sauce, rice wine, rock sugar, shallots, garlic, five-spice powder, steamed buns, cilantro, crushed peanuts, pickled mustard greens (optional), hoisin sauce (optional)",
+Githeri,Kenya,"Corn, kidney beans, onion, tomato, green pepper, salt, oil, (optional: potatoes), (optional: carrots), (optional: peas), (optional: spices such as curry powder).","Succotash, githere, murram, muthere or mutheri"
+Taco Rice,Japan,"Cooked white rice, ground beef, taco seasoning, lettuce, tomato, shredded cheese, salsa (optional), sour cream (optional), onion (optional), avocado (optional), hot sauce (optional)",
+'Nduja,Italy,"Pork, pork fat, Calabrian chili peppers, salt, spices, herbs (optional), red wine (optional).",
+Bindae-tteok,North Korea; South Korea,"Mung beans, water, kimchi, pork (optional), green onions, garlic, salt, pepper, soybean sprouts (optional), zucchini (optional), onions, sesame oil (optional), soy sauce (optional)","Mung bean pancake, nokdu-buchimgae, nokdu-jeon, nokdu-jeonbyeong, nokdu-jijim"
+Abacus Seeds,China,"Tapioca starch, water, cornstarch, sunflower oil, salt",
+Tàⁿ-á-mī,Taiwan,"Rice noodles, pork, shrimp, coriander, shallots, minced pork lard, bean sprouts, shrimp paste (optional), boiled egg (optional), fish sauce (optional), garlic chives (optional), fried shallots (optional)","Ta-a noodles, Danzai noodles"
+Hide,Cambodia,Tarantula,Fried Spider
+Platinum Pudding,United Kingdom,"Eggs, sugar, flour, butter, cream, lemon, orange, white chocolate, amaretti biscuits, vanilla extract, gelatin, whipped cream, strawberry jam, mandarin oranges, fresh berries, edible flowers (optional)",
+Minatamis Na Saging,Philippines,"Saba bananas, brown sugar, water, pandan leaves (optional), vanilla extract (optional), coconut milk (optional)",
+Farsu Magru,Italy,"Beef, breadcrumbs, caciocavallo cheese, eggs, parsley, garlic, ham, pancetta, olive oil, salt, pepper, red wine, bay leaves, tomato paste, onions, carrots, celery, white wine, chicken broth, parmesan cheese (optional), pignoli nuts (optional), raisins (optional), hard-boiled eggs (optional).","Farsumagru, farsumauru, falsomagro, falsumagru"
+Chak-Chak,Russia,"Flour, eggs, sugar, honey, butter, vegetable oil, salt, vanilla extract (optional), nuts (optional).",
+Biff Rydberg,Sweden,"Beef, potatoes, onions, butter, heavy cream, Worcestershire sauce, parsley, egg yolks (optional)",
+Bambalouni,Tunisia,"Flour, yeast, sugar, salt, water, oil, (optional) orange blossom water, (optional) powdered sugar for dusting.",
+Gyūtan,Japan,"Beef tongue, salt, pepper, soy sauce, sake, mirin, garlic, miso, sesame oil, lemon (optional), scallions (optional).",
+Cream Stew,Japan,"Onions, carrots, potatoes, chicken, butter, flour, milk, salt, pepper",
+Eisbein,Germany,"Pork knuckle, water, salt, pepper, onion, garlic, bay leaves, cloves, juniper berries, sauerkraut, potatoes, (optional) mustard, (optional) beer",
+Omija-cha,North Korea; South Korea,"Omija berries, honey, sugar (optional), pine nuts (optional).",
+Funchoza,Belarus; Kyrgyzstan; Armenia; Georgia; Uzbekistan; Estonia; Moldova; Azerbaijan; Tajikistan; Latvia; Kazakhstan; Russia; Lithuania; Ukraine; Turkmenistan,"Glass noodles, carrots, bell pepper, cucumber, onion, soy sauce, garlic, sesame oil, beef (optional), chicken (optional), shrimp (optional), cilantro (optional), vinegar (optional)",
+Beef Wellington,United Kingdom,"Beef fillet, puff pastry, mushrooms, Parma ham, Dijon mustard, egg yolks, (pâté), (shallots), (thyme), (garlic), (white wine), (crepe or pancakes).",
+Khao Soi,Myanmar; Thailand; Laos,"Chicken, coconut milk, curry paste, egg noodles, lime, shallots, pickled mustard greens, fish sauce, sugar, chili oil, cilantro, spring onions, lemongrass (optional), garlic (optional), ginger (optional), turmeric (optional).",Khao soy
+Metworst,Netherlands,"Pork, salt, black pepper, nutmeg, coriander, garlic (optional), cardamom (optional), sugar (optional), sodium nitrite (optional).",Droge worst
+Tteok-kkochi,North Korea; South Korea,"Rice cakes, soy sauce, sugar, garlic, sesame oil, ketchup (optional), gochujang (optional), green onions (optional), sesame seeds (optional).",
+Ćevapi,Croatia; Bosnia and Herzegovina; Slovenia; North Macedonia; Serbia; Montenegro,"Onion, ground beef, ground lamb, salt, black pepper",
+Ramen Salad,Japan,"Ramen noodles, lettuce, cucumber, cherry tomatoes, corn kernels, boiled egg, green onion, sesame seeds, soy sauce, rice vinegar, vegetable oil, sugar, salt, pepper, (optional: sliced ham, crab sticks, seaweed, carrots, bell pepper, chicken, avocado, miso paste)",
+Tuna Casserole,Australia; United States; Finland; Canada,"Tuna, egg noodles, cream of mushroom soup, peas, cheddar cheese, breadcrumbs, milk, butter, onion, celery, potato chips (optional), mushrooms (optional)",Tonnikalavuoka
+Rhum Arrangé,Réunion; Mauritius; Madagascar; Seychelles,"Rum, sugar, fruit, spices, vanilla, citrus peel (optional), ginger (optional), coffee beans (optional), dried fruits (optional), herbs (optional)",
+Pozole,Mexico,"Pork shoulder, dried hominy, onion, garlic, dried chilies, oregano, cumin, bay leaves, salt, avocado, radishes, cilantro, lime, cabbage.",
+Khanom Krok,Thailand,"Coconut milk, rice flour, sugar, salt, green onions (optional), taro (optional), corn (optional), pandanus leaf juice (optional)",
+Gondi,Iran,"Chickpea flour, ground lamb or chicken, onion, cardamom, turmeric, salt, pepper, oil, water, halved dried limes or lime juice (optional), garlic (optional), parsley (optional), dill (optional).","Ghondi, gundi, Persian matzo ball soup"
+Pissaladière,France,"Pizza dough, onions, olive oil, anchovies, black olives, garlic, thyme, bay leaf, (optional) capers, (optional) tomatoes.","Pissaladiera, pissaladina, piscialandrea, pizza all'Andrea,"
+Chạo Tôm,Vietnam,"Shrimp, sugar, fish sauce, garlic, pepper, pork fat, bamboo shoots, lemongrass, rice paper, (optional) green onion, (optional) cornstarch, (optional) rice vermicelli.",
+Costeño Cheese,Colombia; Venezuela,"Milk, salt, rennet, (optional) hot chili peppers, (optional) annatto.",
+Tripes À La Mode De Caen,France,"Beef tripe, veal trotter, carrots, onions, leeks, garlic, bouquet garni, white wine, cider, Calvados, salt, pepper, cloves, bread, butter, vegetables (optional), herbs (optional).",
+Sole Meunière,France,"Sole, butter, flour, lemon, salt, pepper, parsley (optional), capers (optional).",Sole à la meunière
+Tempura,Japan,"Seafood (such as shrimp, squid, or fish), vegetables (such as sweet potatoes, onions, and bell peppers), flour, cornstarch, baking soda, ice water",
+Brunswick Stew,United States,"Chicken, pork, vegetables (such as lima beans, corn, okra, and tomatoes), barbecue sauce, chicken broth, Worcestershire sauce, hot sauce",
+Nameko soba,Japan,"Nameko mushrooms, soba noodles, dashi broth, soy sauce, mirin, green onion, wakame (optional), kamaboko (optional), grated daikon (optional), shichimi togarashi (optional)",
+Financier,France,"Almond flour, all-purpose flour, powdered sugar, egg whites, butter, vanilla extract (optional), baking powder (optional), almond extract (optional)",Visitandine
+Khanom Tokyo,Thailand,"Flour, eggs, sugar, milk, butter, vanilla extract, baking powder, salt, pandan flavoring (optional), custard filling (optional), sausage (optional), taro filling (optional).",Khanom Tokiao
+Maki Mi,Philippines,"Pork, egg noodles, cornstarch, soy sauce, garlic, water, salt, black pepper, eggs, scallions, sesame oil, garlic powder, white pepper, chicken stock, fried shallots (optional), mushrooms (optional).","Maki soup, Pork maki"
+Har Gow,Hong Kong; Macau; China,"Shrimp, wheat starch, tapioca starch, water, bamboo shoots, lard or pork fat (optional), salt, sugar, white pepper, sesame oil, scallions (optional), cornstarch (optional).","Xia jiao, also spelled ha gau, ha gaau, ha gao, ha gow,"
+Börek,Turkey,"Filo pastry, Feta cheese, Spinach, Parsley, Onion, Eggs, Olive oil, Salt, Black pepper","Burek, börek, bourekas, boreg, byrek"
+Esgarrat,Spain,"Red peppers, salt cod, olive oil, garlic, black olives, (optional) onions, (optional) tomatoes, (optional) vinegar.",
+Onigiri,Japan,"Rice, Various Fillings",
+"Birnen, Bohnen Und Speck",Germany,"Pears, green beans, bacon",
+Soon Kueh,Malaysia; Singapore; China,"Rice flour, tapioca flour, jicama, bamboo shoots, dried shrimp, dried mushrooms, shallots, garlic, soy sauce, white pepper, salt, sugar, oil, water, sesame oil, (optional) grated carrot, (optional) fried shallots, (optional) chili sauce, (optional) sweet dark soy sauce.",
+Shwe Yin Aye,Myanmar,"Sticky rice, coconut milk, sago pearls, agar jelly, sugar, water, bread, pandan leaves, condensed milk (optional), rose syrup (optional), ice cream (optional).",
+Bouillabaisse,France,"Fish, shellfish, onions, tomatoes, garlic, saffron, fennel, leeks, parsley",
+Cheese Dream,United States,"Bread, cheese, butter, bacon (optional), tomato slices (optional)",
+Toronto,Canada,"Rye whisky, Fernet-Branca, simple syrup, Angostura bitters, orange twist (optional)",
+Cazón En Adobo,Spain,"Dogfish, garlic, pimentón (paprika), vinegar, oregano, salt, flour, olive oil",
+Mie Goreng,Malaysia; Indonesia; Singapore,"Egg noodles, chicken or shrimp, garlic, onion, cabbage, carrots, soy sauce, sweet soy sauce, eggs, bean sprouts, spring onions, chilies (optional), kecap manis, lime wedges (optional), fried shallots (optional), fried prawn crackers (optional).","Bakmi goreng, Mi goreng"
+Haft Mewa,Afghanistan,"Dried apricots, raisins, pistachios, almonds, walnuts, dried figs, senjed, water, cardamom (optional), rose water (optional), sugar (optional)",
+Goiabada,Brazil,"Guava, sugar, water, lemon juice (optional).","Guava paste, guava cheese"
+Thobwa,Malawi; Zambia,"Maize meal, millet, sorghum, water, sugar.",
+Baumkuchen,Germany,"Eggs, sugar, butter, flour, almond paste, rum, vanilla extract",
+Churros,Brazil; French Guiana; Nicaragua; Puerto Rico; Uruguay; Panama; Peru; Philippines; Mexico; Colombia; Martinique; Saint Martin; Portugal; Guatemala; Chile; Bolivia; Costa Rica; Spain; Honduras; Paraguay; Haiti; El Salvador; Ecuador; Venezuela; Argentina; Dominican Republic; Cuba; Guadeloupe, "Flour, water, salt, vegetable oil, sugar",Tejeringos
+Harees,Oman; Armenia; Bahrain; Eritrea; Ethiopia; Qatar; Yemen; United Arab Emirates; Iraq; Djibouti; Syria; Lebanon; Egypt; Somalia; Kuwait; Tanzania; Saudi Arabia,"Wheat, Meat (usually Mutton), Butter, Onion, Garlic, Ginger, Salt, Black pepper, Cinnamon, Cumin","Jareesh, Hareesa, Haleem, Arizah"
+Minestra maritata,Italy,"Green vegetables (endive and escarole or cabbage, lettuce, kale, spinach), meat (meatballs, sausage), chicken broth",Italian Wedding Soup
+Romazava,Madagascar,"Zebu meat, tomatoes, garlic, ginger, onion, watercress, brèdes mafana, salt, pepper, carrots (optional), green beans (optional), spinach (optional)",
+Ssam,North Korea; South Korea,"Lettuce leaves, rice, ssamjang, grilled meat (usually pork or beef), kimchi, fresh garlic, green chili peppers, sesame oil (optional), gochujang (optional)",
+Simnel Cake,United Kingdom,"Flour, butter, sugar, eggs, currants, sultanas, raisins, glace cherries, candied peel, lemon zest, orange zest, ground almonds, mixed spice, cinnamon, marzipan, apricot jam, milk, brandy (optional), nutmeg (optional).",
+Dinamita,Philippines,"Green chili peppers, ground pork, cheese, spring roll wrappers, onions, garlic, carrots, fish sauce, black pepper, cooking oil, soy sauce, salt","Lumpiang dinamita, dynamite lumpia, dynamite spring rolls ,barako finger, chili cheese sticks"
+Kyay Oh,Myanmar,"Pork balls, egg, garlic, soy sauce, fish sauce, rice noodles, water, chicken stock, baby kale, shallots, scallions, sesame oil, ground pepper, dried shrimp (optional), quail eggs (optional), pork liver (optional), pork intestine (optional)",
+Paneer Tikka Masala,India,"Paneer, yogurt, ginger-garlic paste, red chili powder, turmeric, garam masala, cumin, coriander, salt, oil, butter, onion, tomato puree.",
+Mac and cheese,United States; United Kingdom; Canada,"Macaroni, cheddar cheese, milk, butter, flour, salt, black pepper, mustard (optional), breadcrumbs (optional), cream (optional), other cheeses (optional), nutmeg (optional), paprika (optional)","Mac and cheese, macaroni pie, macaroni cheese"
+Sai Oua,Myanmar; Laos; Thailand,"Pork, lemongrass, kaffir lime leaves, galangal, garlic, shallots, dried red chilies, fish sauce, shrimp paste, salt, sugar, lime juice, cilantro, green onions, (optional) turmeric, (optional) coriander, (optional) roasted sticky rice powder.",Sai ua
+Aborrajados De Plátano Maduro,Colombia,"Ripe plantains, cheese, eggs, all-purpose flour, sugar, milk, butter, baking powder, salt, vegetable oil, cinnamon, vanilla extract, bread crumbs (optional).",Aborrajados colombianos
+Japanese Slipper,Australia,"Melon liqueur, orange liqueur, lemon juice, maraschino cherry (optional), lemon wheel (optional)",
+Cawl,United Kingdom,"Lamb or beef, potatoes, carrots, leeks, swedes, parsnips, cabbage, onions, herbs, stock, (optional: barley, parsley, turnips, peas)",
+Pescado Frito,Spain,"Fish, salt, flour, olive oil, lemon, garlic (optional), parsley (optional), vinegar (optional).",
+Bile Up,Belize,"Pig tail, fish, cassava, plantain, sweet potatoes, dumplings, tomato sauce, onion, bell pepper, coconut milk (optional), okra (optional).",Boil Up
+Steak and Ale Pie,United Kingdom,"Beef, ale, onion, mushrooms (optional), carrots (optional), garlic (optional), beef stock, Worcestershire sauce (optional), thyme, bay leaf, salt, pepper, flour, butter, puff pastry or shortcrust pastry, egg (for glazing, optional)",
+Chả Trứng,Vietnam,"Ground pork, eggs, glass noodles, wood ear mushrooms, shallots, scallions, fish sauce, sugar, black pepper, salt, annatto oil (optional), crab meat (optional), garlic (optional), chicken bouillon (optional), MSG (optional)","Chả trứng hấp, chả trứng thịt"
+Cawl,United Kingdom,"Lamb or beef, potatoes, carrots, leeks, swedes, parsnips, cabbage, onions, herbs, stock, (optional: barley, parsley, turnips, peas)",
+Badrijani,Georgia,"Eggplants, walnuts, garlic, cilantro, pomegranate seeds.",
+Ginataang Kuhol,Philippines,"Snails, coconut milk, garlic, onion, ginger, fish sauce, spinach, chili pepper, salt, pepper (optional), lemongrass (optional), turmeric (optional).",
+Chow Mein Sandwich,United States,"Hamburger-style bun, chow mein",
+Papas Arrugadas,Spain,"Small potatoes, coarse sea salt, water, mojo sauce (optional)",
+Dodol,Indonesia,"Glutinous rice flour, coconut milk, palm sugar, salt, pandan leaves (optional), vanilla extract (optional).",
+Milkfish Congee,Taiwan,"Rice, water, milkfish, ginger, fried shallots, fish sauce, white pepper, salt, green onions, cilantro, sesame oil (optional), soy sauce (optional), garlic (optional), bird's eye chili (optional).",
+Mousse,France,"Cream, sugar, eggs, chocolate, vanilla extract",
+Arroz Con Hinojos,Spain,"Rice, water, fennel bulbs, garlic, olive oil, salt, pepper, chicken broth (optional), saffron (optional), parsley (optional), lemon zest (optional), bay leaves (optional)",Rice with fennel
+Milanesa Sandwich,Uruguay; Paraguay; Argentina,"Beef schnitzel, sandwich bread or rolls, lettuce, tomatoes, mayonnaise, mustard, cheese (optional), ham (optional), avocado (optional)",
+Ciorbă De Perișoare,Romania,"Ground meat, rice, onion, egg, garlic, carrot, celery, bell pepper, tomato paste, vinegar, parsley, thyme, dill, salt, pepper, water, (optional sour cream), (optional potatoes), (optional bay leaves).",
+Nsala Soup,Nigeria,"Catfish, goat meat, yam, utazi leaves, ogiri, crayfish, pepper, onions, salt, water, palm oil (optional), uziza seeds (optional), bitter leaves (optional).","White soup, ofe nsala"
+Brie,France,"Milk, salt, rennet, bacterial culture",
+Kitcha,Eritrea; Ethiopia,"Wheat flour, water, salt, clarified butter, fenugreek seeds (optional), oil (optional).",
+Pastrami burger,United States,"Ground beef patty, pastrami, hamburger bun, Swiss cheese, lettuce, tomato, pickles, onions, mustard, mayonnaise, ketchup, rye bread (optional), Thousand Island dressing (optional).",
+Vincisgrassi,Italy,"Lasagna noodles, ragù made with minced meat (such as pork and beef), fresh tomatoes or tomato paste, onion, celery, carrot, butter, flour, milk, broth, Parmesan cheese, nutmeg, porcini mushrooms (optional), prosciutto (optional), chicken liver (optional), clove (optional), white wine (optional), garlic (optional).",Vincesgrassi
+Kir,France,"Dry white wine, crème de cassis, sparkling wine (optional), lemon twist (optional)",
+Awara Broth,French Guiana,"Awara fruit pulp, smoked fish, salted meat, smoked chicken, smoked pork, crab, shrimp, cassava, okra, plantains, eggplant, chili pepper, green onions, garlic, thyme, parsley, oil, salt, pepper, rice (optional), spinach (optional), beans (optional), dumplings (optional)",Bouyon wara
+Kokotxas,Spain; France,"Cod cheeks, olive oil, garlic, parsley, white wine, bread crumbs",cocochas
+Pörkölt,Hungary,"Onions, paprika, stewing beef, water",
+Tunnbröd,Sweden,"Flour, yeast, warm water, salt, sugar, butter, milk, (optional) buttermilk, (optional) syrup, (optional) caraway seeds, (optional) anise seeds.",
+Baked Milk,Belarus; Russia; Ukraine,Milk (baked),
+Kaasstengels,Netherlands,"Flour, butter, eggs, cheese (often Gouda or Edam), salt, nutmeg (optional), breadcrumbs (optional).",
+Empanada,Portugal; Spain,"Pastry, meat, cheese, corn, or other ingredients",Pastry
+Sosis Bandari,Iran,"Sausages, onions, tomatoes, tomato paste, green bell peppers, turmeric, salt, pepper, vegetable oil, garlic (optional), hot peppers (optional), lemon juice (optional), potatoes (optional)",Port sausage
+Cơm Rượu,Vietnam,"Glutinous rice, rice wine yeast, sugar (optional), salt (optional), banana leaves (optional for wrapping).",
+Falculelle,France,"Brocciu cheese, eggs, sugar, lemon zest, semolina, flour (optional), vanilla (optional), orange zest (optional), powdered sugar (optional)",
+Tamale,Belize; Nicaragua; Panama; Mexico; Guatemala; Costa Rica; Honduras; El Salvador,"Masa, Banana leaf or Corn husks",
+Meia-desfeita,Portugal,"Chickpeas, salt cod, olive oil, garlic, onion, parsley, vinegar, paprika, bay leaves, coriander, cumin, chili flakes, black pepper, lemon juice, bread, boiled potatoes (optional), boiled eggs (optional), olives (optional).",
+Ugadi Pachadi,India,"Raw mango, tamarind, neem flowers, jaggery, salt, water, banana (optional), coconut pieces (optional).",
+Cheesesteak,United States,"Steak, onions, green peppers, mushrooms, provolone cheese, hoagie roll","Philadelphia cheesesteak, Philly cheesesteak"
+Pizzaiola,Italy,"Beef, tomato sauce, olive oil, garlic, oregano, capers, salt, black pepper, white wine (optional), chili pepper (optional), parsley (optional).",Carne alla pizzaiola
+Dobara,Algeria,"Chickpeas or fava beans, tomatoes, garlic, olive oil, cumin, paprika, harissa, salt, pepper, water, (optional: carrots, potatoes, bell peppers, lemon juice, parsley, cilantro, green olives).","Dobara soup, Doubara"
+Bánh Bò,Vietnam,"Rice flour, tapioca flour, sugar, yeast, coconut milk.",
+Sausage Sizzle,Australia; New Zealand,"Sausages, white bread slices, onions, tomato sauce, mustard, (barbecue sauce), (cheese), (sauerkraut), (coleslaw)",
+Jatjuk,North Korea; South Korea,"Rice, water, chestnuts, salt, sugar (optional), sesame seeds (optional), pine nuts (optional), honey (optional).",Pine nut porridge
+Ginataang Munggo,Philippines,"Mung beans, coconut milk, water, onion, garlic, ginger, pork or shrimp (optional), spinach or moringa leaves, fish sauce or salt, black pepper, chayote (optional), green chilies (optional)","Tinutungang munggo, Lelut balatung, Ginataang minatamis na munggo"
+Abacus Seeds,China,"Tapioca starch, water, cornstarch, sunflower oil, salt",
+Tushonka,Russia,"Pork, beef, bay leaves, salt, black pepper, garlic, onion, carrot (optional), lard (optional).",
+Älplermagronen,Switzerland,"Potatoes, macaroni, cream, cheese, onions, butter, salt, pepper, (optional: bacon, garlic, apples, milk).",
+Cheese And Pickle Sandwich,United Kingdom,"Bread, Cheese, Pickle, Butter, Lettuce (optional), Tomato (optional)",Cheese and chutney sandwich
+Crispbread,Finland; Sweden,"Rye flour, water, salt, yeast, whole wheat flour (optional), caraway seeds (optional), anise seeds (optional), fennel seeds (optional), oats (optional).",Hard bread
+Chapli Kebab,Pakistan; Afghanistan,"Ground beef or lamb, garlic, ginger, onions, coriander, cumin, green chilies, tomatoes, eggs, cilantro, pomegranate seeds (optional), garam masala, salt, black pepper, red chili flakes, cornmeal or gram flour",Peshawari chapli kabab
+Chakapuli,Georgia,"Onions, lamb, white wine vinegar, tarragon vinegar, water, oil, salt, pepper, tarragon, fresh coriander, bay leaves, Tkemali (plum sauce), garlic",
+Barmbrack,Ireland,"Flour, sugar, yeast, warm milk, butter, mixed dried fruit, dark tea, egg, baking soda, salt, cinnamon (optional), nutmeg (optional), whiskey (optional).","Báirín Breac, Boreen brack, Bawreen brack"
+Pustakari,Nepal,"Coconut, sugar, molasses, ghee, milk, rice flour (optional).",
+Khanom Krok,Thailand,"Coconut milk, rice flour, sugar, salt, green onions (optional), taro (optional), corn (optional), pandanus leaf juice (optional)",
+Khoresh Bademjan,Iran,"Eggplants, lamb or beef, tomatoes, onions, garlic, turmeric, saffron (optional), dried lime (optional), vegetable oil, salt, black pepper, water, lemon juice (optional), sugar (optional), parsley (optional), cinnamon (optional).","Khoresh bademjoon, khoresh bademjun, khoresh bodimjon"
+Sate Bandeng,Indonesia,"Milkfish, coconut milk, grated coconut, shallots, garlic, coriander, turmeric, candlenuts, sugar, salt, lemongrass, galangal, lime leaves, tamarind (optional), chili (optional).",
+Karnıyarık,Turkey,"Eggplants, Ground beef, Onions, Garlic, Tomatoes, Green peppers, Tomato paste, Parsley, Olive oil, Salt, Black pepper, Water, Ground lamb (optional), Pepper paste (optional), Red pepper flakes (optional), Cumin (optional), Sugar (optional)",
+Nazook,Armenia,"Flour, butter, sour cream, yeast, sugar, salt, vanilla extract, eggs, milk, walnuts, cinnamon, powdered sugar, baking powder, raisins (optional), cardamom (optional).",
+Pempek sambal,Indonesia,"Fish, tapioca flour, garlic, salt, egg, water, sugar, vinegar, chili, tamarind, sweet soy sauce (optional), cucumber (optional), noodles (optional), shrimp powder (optional)",
+Kaasstengels,Netherlands,"Flour, butter, eggs, cheese (often Gouda or Edam), salt, nutmeg (optional), breadcrumbs (optional).",
+Gibanica,Bosnia and Herzegovina; Serbia; Croatia; Montenegro; Slovenia,"Phyllo dough, eggs, white cheese, milk, yogurt, sour cream, oil, butter, salt, (optional spinach), (optional potatoes), (optional meat), (optional sugar for sweet versions)",
+Navarin,France,"Shoulder of lamb, onions, carrots, turnips, garlic, tomato paste, white wine, beef broth, parsley, thyme, bay leaf",
+Khua chin som sai khai,Thailand,"Pork, eggs, garlic, shallots, lime juice, fish sauce, sugar, cilantro, mint, chilies, green onions, peanuts, cabbage (optional).",
+Prawn Roll,Australia,"Prawns, mayonnaise, lemon juice, celery, chives, lettuce, hot dog bun, (optional: avocado, cocktail sauce, dill, capers)",
+Takoyaki,Japan,"Flour, dashi broth, eggs, octopus, pickled ginger, green onions, tempura scraps, tenkasu, bonito flakes, mayonnaise, sauce",
+Casado,Costa Rica,"White rice, black beans, fried plantains, salad, tortilla, grilled or sautéed chicken (optional), grilled or sautéed beef (optional), grilled or sautéed fish (optional), cooked vegetables (optional), egg (optional), avocado (optional), cheese (optional)",
+Singapore Rice Noodles,Hong Kong,"Rice vermicelli, curry powder and turmeric, char siu and/or shrimp or chicken, red and green bell pepper, onion, garlic chives or green onions, bean sprouts, and topped with sesame",Singapore-style Noodles
+Neapolitan Ragù,Italy,"beef, pork, tomatoes, onions, red wine, olive oil, garlic, salt, black pepper, basil, bay leaves, Parmesan cheese (optional), pancetta (optional), tomato paste (optional), carrots (optional), celery (optional)",
+Battered Sausage,New Zealand; Australia; United Kingdom; Ireland,"Sausages, flour, baking powder, salt, pepper, milk, vegetable oil",
+Kringle,Finland; Estonia; Iceland; Sweden; Latvia; Norway; Germany; Denmark,"Flour, butter, sugar, eggs, milk, yeast, almonds (optional), cardamom (optional), cinnamon (optional), nuts (optional), raisins (optional), vanilla (optional), icing sugar (optional)",
+Mizithra,Greece,"Goat milk, sheep milk, salt, cow milk (optional)",
+Peameal Bacon,Canada,"Pork loin, cornmeal",Cornmeal Bacon
+Zunda-mochi,Japan,"Edamame, glutinous rice, sugar, salt, water",
+Siş köfte,Turkey,"Ground lamb, ground beef, onions, garlic, parsley, mint, cumin, paprika, salt, black pepper, red pepper flakes (optional), olive oil (optional), sumac (optional).",
+Ramen Salad,Japan,"Ramen noodles, lettuce, cucumber, cherry tomatoes, corn kernels, boiled egg, green onion, sesame seeds, soy sauce, rice vinegar, vegetable oil, sugar, salt, pepper, (optional: sliced ham, crab sticks, seaweed, carrots, bell pepper, chicken, avocado, miso paste)",
+Lazarakia,Greece; Cyprus,"Flour, yeast, water, sugar, olive oil, salt, cinnamon, cloves, raisins (optional), nutmeg (optional), orange zest (optional).",
+Filipino Spaghetti,Philippines,"Spaghetti noodles, ground meat (beef or pork), hot dogs, banana ketchup, tomato sauce, garlic, onions, sugar, grated cheese, cooking oil, [bell peppers (optional)], [carrots (optional)], [mushrooms (optional)].",Sweet spaghetti
+Shabu-shabu,Japan,"Many variations include Beef, Pork, Chicken, Seafood, Tofu, Napa Cabbage, Bok Choy, Carrots, Mushrooms, Daikon Radish, Green Onions, Enoki Mushrooms, Udon Noodles, Soy Sauce, Ponzu Sauce, Sesame Sauce, Garlic, Sesame Oil",
+Baumkuchen,Germany,"Eggs, sugar, butter, flour, almond paste, rum, vanilla extract",
+Rava Idli,India,"Semolina (Rava), Yogurt, Water, Baking Soda, Mustard Seeds, Cumin Seeds, Urad Dal, Chana Dal, Green Chili (optional), Ginger (optional), Curry Leaves (optional), Coriander Leaves (optional), Grated Carrot (optional), Peas (optional)",
+Kusksu,Malta,"Fava beans, onions, garlic, tomato paste, peas, broad beans, spinach, salt, pepper, water, olive oil, parsley, pasta or couscous, (optional: eggs, ricotta, saffron, parmesan cheese)",Kusksu bil-Ful
+Dotoriguksu,North Korea; South Korea,"Buckwheat noodles, acorn starch, water, soy sauce, sesame oil, garlic, green onions, carrots, cucumbers, sesame seeds, red chili pepper flakes, (optional) kimchi, (optional) boiled egg, (optional) seaweed flakes",Acorn Noodle Soup
+Butifarras Soledeñas,Colombia,"Pork meat, salt, pepper, garlic, cumin, oregano, vinegar, (lemon juice optional), (orange juice optional), (spices optional).",
+Goat Roti,Jamaica; Barbados; Guyana; Suriname; Trinidad and Tobago,"Goat meat, all-purpose flour, water, baking powder, salt, cooking oil, ghee (optional), yellow split peas (optional), curry powder, garlic, onion, scallions, thyme, ginger, culantro (optional), hot pepper, potatoes, roasted cumin, black pepper, garam masala (optional), turmeric (optional), allspice (optional), tomatoes (optional), coconut milk (optional)",
+Witchetty Grub,Australia,Witchetty grub,
+Baingan Bharta,India,"Eggplant, onions, tomatoes, garlic, ginger, green chilies, coriander leaves, mustard oil, cumin seeds, turmeric powder, red chili powder.","Begun bhorta , Baingan bharta , Baingan Chokha"
+Tarak-juk,North Korea; South Korea,"Rice, milk, sugar, salt, sesame seeds (optional), pine nuts (optional).","Uyu-juk, milk porridge"
+Iced VoVo,Australia,"Biscuits, raspberry jam, marshmallows, desiccated coconut, icing sugar, butter, vanilla extract, milk, water (optional), food coloring (optional).",
+Bursa Cantik Pide,Turkey,"Flour, water, yeast, salt, sugar, olive oil, ground beef, onion, tomato, green pepper, black pepper, red pepper flakes, yogurt, butter, egg (optional).",
+Türlü,Turkey,"Eggplant, zucchini, bell peppers, tomatoes, onions, garlic, olive oil, parsley, salt, pepper.","Tourlou, turli perimesh, turli tava"
+Mate Cocido,Brazil; Uruguay; Guyana; Bolivia; Paraguay; Argentina,"Yerba mate, water, sugar (optional), milk (optional).","Cocido, chá mate, kojoi, yerbiado"
+Bigos,Poland,"Sauerkraut, fresh cabbage, pork shoulder, sausage, bacon, mushrooms, onions, garlic, caraway seeds, bay leaves, salt, pepper, marjoram, red wine",
+Tumpeng,Indonesia,"Rice, chicken, tempeh, tofu, eggs, sambal, vegetables, coconut milk, turmeric, lemongrass, garlic, shallots, galangal, bay leaves, kaffir lime leaves, peanuts, fried shrimp, fried anchovies, grated coconut (optional), shredded beef (optional), sweet soy sauce (optional), shrimp crackers (optional)",
+Tteok-kkochi,North Korea; South Korea,"Rice cakes, soy sauce, sugar, garlic, sesame oil, ketchup (optional), gochujang (optional), green onions (optional), sesame seeds (optional).",
+Grits and Grunts,United States,"Grits, water, salt, butter, sugar, cheese, bacon, fish fillets, oil for frying, eggs, flour, (optional) hot sauce, (optional) herbs",
+Timpu,Peru; Bolivia,"beef, lamb, potatoes, corn, cabbage, carrots, peas, rice, fava beans, chuño, leek, garlic, onion, salt, pepper, (optional: beef tripe, celery, green beans, parsley, eggs)",
+Pozol,Belize; Nicaragua; Panama; Mexico; Guatemala; Costa Rica; Honduras; El Salvador,"Corn dough, cacao, water, sugar (optional), chili pepper (optional), cinnamon (optional), vanilla (optional).",
+Montreal-style Smoked Meat,Canada,"Beef brisket, kosher salt, coarse black pepper, coriander seeds, mustard seeds, garlic, paprika, sugar (optional), bay leaves (optional), juniper berries (optional)",
+Pralines,France,"Almonds, sugar, water, cinnamon (optional), vanilla extract (optional), salt (optional).","Candied Almonds, Gebrannte Mandeln, Garrapiñadas, Addormentasuocere,"
+Steak And Eggs,Australia; United States; Canada,"Beef steak, eggs, salt, black pepper, butter, oil, garlic (optional), herbs (optional), potatoes (optional), onions (optional), mushrooms (optional), toast (optional).",
+Vaho,Nicaragua,"Beef brisket, green plantains, yuca, onions, bell peppers, tomatoes, garlic, sour orange juice, salt, black pepper, cabbage (optional), carrots (optional), lime (optional), cilantro (optional)",
+Kwetiau Ayam,Indonesia,"Kwetiau noodles, chicken, garlic, soy sauce, sweet soy sauce, oyster sauce, cooking oil, water, green onions, mushrooms (optional), bok choy (optional), chili (optional).","Kwetiau ayam, kuetiau ayam, chicken kway teow"
+Fläskpannkaka,Sweden,"Flour, eggs, milk, salt, butter, bacon, [white pepper (optional)], [allspice (optional)], [chives (optional)]",
+Sapin-sapin,Philippines,"Glutinous rice flour, coconut milk, sugar, violet food coloring, yellow food coloring, jackfruit, coconut flakes, margarine or butter, sweetened condensed milk, pandan essence optional, latik optional.",
+Pączki,Poland,"Flour, eggs, milk, sugar, yeast, butter, salt, vanilla extract (optional), rum (optional), jam or fruit preserves for filling, powdered sugar for dusting.","kreple, pùrcle"
+Chorizo De Pamplona,Spain,"Pork, paprika, garlic, salt, white pepper, oregano, red pepper flakes, wine, cayenne (optional), nutmeg (optional).",
+Açaí Na Tigela,Brazil,"Açaí berries, granola, banana slices, guaraná syrup, strawberries (optional), honey (optional), coconut flakes (optional), nuts (optional).",
+Frozen yogurt,United States,"Yogurt, sugar, milk, cream (flavor variations add various fruits, chocolate, etc)",Froyo
+Piaparan,Philippines,"Chicken, grated coconut, coconut milk, turmeric, scallions, shallots, ginger, chili peppers, garlic, onion, cooking oil, salt, beef (optional), fish (optional), black pepper (optional), lemongrass (optional), bell pepper (optional), calamansi (optional), unripe papaya (optional), chayote (optional)","Pipaparan, Piarun, Pyarun, Piaran, Pyaran"
+Pastila,Russia,"Apples, sugar, egg whites, (optional: honey), (optional: berries).",
+Kiwiburger,New Zealand,"Ground beef patty, egg, beetroot slices, cheese, lettuce, tomato, onion, tomato sauce, mustard, bread buns",
+Tangpyeong-chae,North Korea; South Korea,"Mung bean jelly, shredded beef, watercress, mung bean sprouts, egg (optional), red chili pepper (optional), soy sauce, sesame oil, garlic, green onions",Mung bean jelly salad
+Tharid,Saudi Arabia,"Lamb, bread, chickpeas, onion, garlic, turmeric, cumin, coriander, cinnamon, salt, pepper, water",Tharid
+Choucroute Garnie,France,"Sauerkraut, pork belly, sausages, potatoes, onions, white wine, juniper berries, cloves, bay leaves, garlic, bacon, ham hock, carrots, mustard (optional), apples (optional).",
+Koulourakia,Greece,"All-purpose flour, sugar, butter, eggs, baking powder, vanilla extract, orange zest, milk, orange juice, sesame seeds (optional), anise seeds (optional).",Easter biscuits
+Snowball,United Kingdom,"Advocaat, lemonade, lime juice (optional), maraschino cherry (optional), ice (optional)",
+Käsekrainer,Austria,"Pork, beef, cheese, salt, pepper, paprika, garlic, onions, nutmeg, casing, (optional) mustard, (optional) horseradish.",
+California Roll,Canada; United States,"Nori, sushi rice, imitation crab meat, avocado, cucumber",California maki
+Mofongo,Puerto Rico; Dominican Republic,"Green plantains, garlic, pork cracklings, olive oil, salt, chicken broth (optional), shrimp (optional), chicken (optional), crab meat (optional).","Mofongo pelao, mofongo criollo, mofonguito"
+Madeleine (cake),France,"Butter, eggs, sugar, flour, baking powder, lemon zest, vanilla extract (optional), almond extract (optional)",Petite madeleine
+Pupusa,Nicaragua; Belize; Panama; Guatemala; Costa Rica; Honduras; El Salvador,"Corn masa, water, salt, queso, refried beans, chicharrón, loroco, (optional) jalapeños, (optional) zucchini, (optional) pumpkin seeds, (optional) loroco flowers.",
+Goulash,Hungary,"Beef, onions, bell peppers, tomatoes, paprika, garlic, caraway seeds, beef broth, salt, pepper, potatoes",Gulash / Gulyás / Gulaš
+Sindhi Pulao,Pakistan,"Basmati rice, chicken or lamb, onions, tomatoes, yogurt, ginger, garlic, green chili, red chili powder, turmeric, cumin seeds, coriander powder, garam masala, cinnamon, cardamom, cloves, bay leaves, black peppercorns, ghee or oil, cilantro leaves.",
+Molote,Mexico,"Corn masa, salt, water, queso fresco, chorizo (optional), potatoes (optional), salsa (optional), vegetable oil",
+Mämmi,Finland,"Rye flour, rye malt, water, molasses, salt, orange zest (optional).",Memma
+Bourek Annabi,Algeria; Tunisia,"Phyllo dough, ground meat (beef or lamb), onions, garlic, parsley, egg, salt, pepper, cumin, olive oil, potatoes (optional), cheese (optional), lemon wedges (optional)",
+Nikogori,Japan,"Fish (yellowtail, conger eel, pufferfish), or pork, soy sauce, mirin, sake, gelatin, dashi, (optional: mushrooms, carrots, green onions, seaweed)",
+Gnocchi Alla Romana,Italy,"Semolina, milk, butter, egg yolks, Parmesan cheese, nutmeg (optional), salt, pepper, sage (optional), bread crumbs (optional).",
+Ayam Kecap,Indonesia,"Chicken, soy sauce, sweet soy sauce, garlic, shallots, ginger, chilies, tomato, water, salt, pepper, cooking oil, (optional: oyster sauce, honey, lime leaves, lemongrass, scallions, coriander, nutmeg, cinnamon stick, potatoes, carrots).",Ayam masak kicap
+Chatti Pathiri,India,"Eggs, milk, ghee, cashew nuts, raisins, sugar, cardamom powder, banana, bread slices, coconut flakes, and oil.",
+Kaipen,Laos,"Mekong river weed, sesame oil, garlic, shallots, salt, monosodium glutamate, sugar, fish sauce, roasted peanuts, dried chilies, lime juice",
+Poutine,Canada,"French fries, cheese curds, gravy",
+Pabellón Criollo,Venezuela,"Beef, black beans, rice, plantains, onions, peppers",
+Ribollita,Italy,"Cabbage, Cannellini beans, Carrot, Celery, Onion, Garlic, Olive oil, Stale bread, Tomato, Black pepper, Salt, Rosemary, Thyme, Bay leaves, Kale, Parmesan cheese (optional), Potatoes (optional), Leek (optional), Zucchini (optional), Red pepper flakes (optional).",
+Chả rươi,Vietnam,"Sand worm, pork, egg, dill, scallion, fish sauce, pepper, ginger (optional), tangerine peel (optional), chili (optional)",Sand worm omelette
+Patlıcanlı Kebap,Turkey,"Eggplant, bell peppers, tomatoes, onions, garlic, olive oil, lamb or beef, salt, black pepper, red pepper flakes, cumin, parsley.",Eggplant Kebab
+Tatws Pum Munud,United Kingdom,"Smoked bacon, stock, potatoes and other vegetables.",
+Gogi-gui,North Korea; South Korea,"Beef (or pork, chicken), soy sauce, sugar, garlic, sesame oil, sesame seeds, green onions, black pepper, ginger (optional), gochujang (optional), rice wine (optional)",Korean Barbecue
+Shiro,Eritrea; Ethiopia,"Split peas, onions, garlic, ginger, niter kibbeh (spiced clarified butter), berbere (spice blend), tomato paste, salt",
+Ayam Kecap,Indonesia,"Chicken, soy sauce, sweet soy sauce, garlic, shallots, ginger, chilies, tomato, water, salt, pepper, cooking oil, (optional: oyster sauce, honey, lime leaves, lemongrass, scallions, coriander, nutmeg, cinnamon stick, potatoes, carrots).",Ayam masak kicap
+Bolinhos De Bacalhau,Brazil; Portugal,"Salted cod, potatoes, eggs, onion, parsley, (garlic), (pepper), (olive oil).",
+Eierschecke,Germany,"Flour, sugar, eggs, butter, quark, vanilla pudding, milk, cream, raisins (optional), lemon zest (optional), baking powder (optional).",
+Strammer Max,Germany,"Bread, ham, eggs, butter, salt, pepper, cheese (optional), pickles (optional)",
+Bagel De Montréal,Canada,"Flour, water, sugar, yeast, eggs, honey, malt, oil, salt, sesame seeds (optional), poppy seeds (optional).",
+Tavern Sandwich,United States,"Ground beef, onion, Worcestershire sauce, salt, pepper, hamburger buns, mustard, pickles, cheese (optional), ketchup (optional)","Loose Meat Sandwich, Loosemeat"
+Suikerboon,Belgium; Netherlands; France,"Sugar, almonds, water, gelatin, cornstarch, food coloring (optional).",Sugar bean
+Shish Taouk,Oman; Jordan; Armenia; Georgia; Bahrain; Palestine; Qatar; Azerbaijan; United Arab Emirates; Iraq; Syria; Israel; Lebanon; Iran; Egypt; Cyprus; Turkey; Kuwait; Saudi Arabia,"Chicken, yogurt, lemon juice, garlic, olive oil, tomato paste, paprika, cumin, coriander, salt, black pepper, (optional: cayenne pepper, turmeric, onions, bell peppers, fresh parsley, sumac, mint leaves)",
+Madumongso,Indonesia,"black glutinous rice, sweet fermentation starter, coconut milk, palm sugar, granulated sugar, pandan leaves, salt, white glutinous rice (optional)",Madumangsa
+Chocolate Brownie,United States,"chocolate, cocoa powder, butter, sugar, eggs, flour, vanilla extract, salt, baking powder (optional), nuts (optional), chocolate chips (optional)",
+Rempeyek,Indonesia,"Rice flour, coconut milk, peanuts, water, salt, garlic, coriander seeds, kaffir lime leaves, shallots, cumin, white pepper, oil for frying, dried shrimp (optional), anchovies (optional), mung beans (optional).",Peyek
+White Pudding,United Kingdom; Ireland,"Oatmeal, onions, pork fat, suet, pork meat, spices",lang-ga
+Songpyeon,North Korea; South Korea,"Glutinous rice flour, water, sugar, sesame seeds, honey, salt, mugwort (optional), pine needles (optional), chestnuts (optional), red beans (optional), soybeans (optional), black beans (optional), jujube (optional)",
+Torta de Vino,Colombia,"all-purpose flour, butter, sugar, eggs, sweet red wine, rum (optional), raisins, prunes, candied fruit, walnuts (optional), almonds (optional), burnt sugar syrup, baking powder, vanilla extract, ground cinnamon, ground nutmeg, ground cloves (optional), brewed coffee (optional), molasses (optional)",Wine Cake
+Selsko Meso,Bulgaria; Serbia; North Macedonia; Albania,"pork, beef (optional), mushrooms, onions, garlic, tomatoes, paprika, white wine, cooking oil, salt, black pepper, bay leaves, parsley, smoked bacon (optional), sausage (optional), yellow cheese (optional), bell peppers (optional), carrots (optional)",
+California Roll,Canada; United States,"Nori, sushi rice, imitation crab meat, avocado, cucumber",California maki
+Pastizz,Malta,"Puff pastry, ricotta cheese or mushy peas",
+Shiruko,Japan,"Azuki beans, sugar, mochi, water, chestnuts (optional), sweetened condensed milk (optional)",Oshiruko
+Matambre,Argentina; Paraguay; Uruguay,"Beef steak, vegetables, peppers, ham, hard-boiled eggs and herbs","Matambre arrollado, Matambre relleno"
+Qormeh Sabzi,Azerbaijan; Iran,"Lamb, kidney beans, fenugreek, parsley, cilantro, spinach, turmeric, lime, onion, garlic, oil, salt, pepper, dried lime, water, saffron (optional)","Khoresh sabzi, khoresht sabzi, ghormeh sabzi, qormeh sabzi"
+Timpu,Peru; Bolivia,"beef, lamb, potatoes, corn, cabbage, carrots, peas, rice, fava beans, chuño, leek, garlic, onion, salt, pepper, (optional: beef tripe, celery, green beans, parsley, eggs)",
+Khanom Krok,Thailand,"Coconut milk, rice flour, sugar, salt, green onions (optional), taro (optional), corn (optional), pandanus leaf juice (optional)",
+Supplì,Italy,"Arborio rice, chicken broth, tomato sauce, onion, garlic, pecorino cheese, mozzarella cheese, eggs, breadcrumbs, olive oil",
+Pizza de cancha,Argentina,"Flour, water, salt, yeast, olive oil, tomato sauce, mozzarella cheese, oregano, black pepper, onions (optional), bell peppers (optional), olives (optional), ham (optional), anchovies (optional)",Pizza canchera
+Danbo,Denmark,"Cow's milk, salt, rennet, starter culture, (optional) annatto.",
+F***** (food),United Kingdom,"Pork liver, belly, and heart, along with onions, breadcrumbs, herbs, and spices.",
+Morcilla de Burgos,Spain,"Rice, pig's blood, onion, lard, salt, paprika, black pepper, oregano, garlic, (optional) pine nuts.",
+Bocadillo,Spain,"Various fillings (meat, seafood, eggs, vegtables) in a baguette like roll",Bocata
+Singapore Sling,Singapore,"Gin, cherry brandy, lime juice, pineapple juice, Cointreau (optional), Bénédictine (optional), grenadine, Angostura bitters, soda water (optional)",
+Fritelli castagnini,France,"Chestnut flour, wheat flour (optional), sugar, salt, water, olive oil, baking powder.",
+Panini (sandwich),Italy,"Bread, cheese, deli meat, vegetables, olive oil, butter, condiments (optional), herbs (optional), garlic (optional), spices (optional).",lang
+Callaloo,Jamaica; Antigua and Barbuda; Barbados; Saint Vincent and the Grenadines; Saint Lucia; Bahamas; Grenada; Haiti; Trinidad and Tobago; Dominica; Dominican Republic; Saint Kitts and Nevis; Cuba,"Okra, dasheen leaves (taro leaves), coconut milk, onions, garlic, thyme, scotch bonnet pepper, salt, black pepper","Kallaloo, Calaloo, Calalloo, Calaloux or Callalloo"
+Grey Peas,Latvia,"Grey peas, bacon, onions, water, salt, pepper, (optional) butter, (optional) smoked ham, (optional) sour cream.",Pelēkie zirņi
+Bunny Chow,South Africa,"White bread, curry filling (typically chicken, lamb, or vegetable curry), optional garnishes (such as mango chutney, grated coconut, and sambals).",Bunny
+Chinese Chicken Salad,United States,"Chicken, lettuce, cabbage, carrots, cilantro, almonds, green onions, sesame seeds, won ton strips, sesame oil, soy sauce, rice vinegar, honey, garlic, ginger",
+Meia-desfeita,Portugal,"Chickpeas, salt cod, olive oil, garlic, onion, parsley, vinegar, paprika, bay leaves, coriander, cumin, chili flakes, black pepper, lemon juice, bread, boiled potatoes (optional), boiled eggs (optional), olives (optional).",
+Pasta E Fagioli,Italy,"Pasta, cannellini beans, olive oil, garlic, onion, tomatoes, celery, carrots, rosemary, bay leaf, salt, black pepper, parmesan cheese (optional), pancetta (optional), chicken broth (optional), vegetable broth (optional), red pepper flakes (optional), ditalini pasta (optional), thyme (optional).","Pasta e fasule, pasta fazool"
+Stuffat Tal-Fenek,Malta,"Rabbit, onions, garlic, tomatoes, carrots, potatoes, red wine, bay leaves, olive oil, peas, salt, pepper, (bacon), (chicken stock), (fresh herbs like rosemary or thyme), (lemon zest), (tomato paste)",
+Boudin Créole,French Guiana; Martinique; Réunion; Mauritius; Seychelles; Guadeloupe, "Pork, pork blood, onions, garlic, green onions, bread, milk, hot peppers, thyme, parsley, bay leaf, salt, black pepper, nutmeg, allspice, (optional: rice, chives, cloves, cinnamon, vinegar, rum, scallions)",
+Wheel Pie,Japan; Taiwan,"Flour, sugar, eggs, milk, baking powder, red bean paste, custard, sweet potato, taro, matcha, cheese, chocolate, sesame paste, (optional) corn, (optional) ham, (optional) green tea.",Wheelcake
+Drunken Shrimp,China,"Live shrimp, rice wine, soy sauce, ginger, garlic, scallions, sesame oil, chili peppers.",
+Toast Sandwich,United Kingdom,"Bread, butter, toast, salt, pepper",
+Ražnjići,Bosnia and Herzegovina; Serbia; Croatia; North Macedonia; Montenegro; Slovenia,"Pork, chicken, beef, lamb, onion, bell pepper, salt, pepper, garlic, olive oil, vinegar, paprika, bay leaf (optional), mustard (optional), wine (optional), herbs (optional).",
+Nieheimer,Germany,"Sour milk, caraway seeds, salt, cream (optional), butter (optional).",
+Fasole Cu Cârnați,Romania,"White beans, smoked sausage, onion, garlic, tomato paste, paprika, bay leaves, salt, pepper",
+Carapulcra,Peru,"Pork, papa seca (dried potatoes), aji panca (dried red chili), mirasol peppers, garlic, onion, cumin, cloves, peanuts, chocolate, tomatoes",
+Lobiani,Georgia,"Kidney beans, onions, garlic, coriander, salt, pepper, pastry dough, eggs (optional), cheese (optional), chili flakes (optional).",
+Pissaladière,France,"Pizza dough, onions, olive oil, anchovies, black olives, garlic, thyme, bay leaf, (optional) capers, (optional) tomatoes.","Pissaladiera, pissaladina, piscialandrea, pizza all'Andrea,"
+Ceviche,Peru,"Raw fish, lime juice, red onion, chili pepper, cilantro, salt, pepper, (optional sweet potato), (optional corn), (optional lettuce), (optional garlic)",
+Chapli Kebab,Pakistan; Afghanistan,"Ground beef or lamb, garlic, ginger, onions, coriander, cumin, green chilies, tomatoes, eggs, cilantro, pomegranate seeds (optional), garam masala, salt, black pepper, red chili flakes, cornmeal or gram flour",Peshawari chapli kabab
+Torta De Gazpacho,Spain,"Flour, water, olive oil, salt, garlic, onion, tomatoes, bell peppers, cucumbers, vinegar, bread, olives, capers, black pepper, cumin, paprika, oregano, (optional: eggs, chicken, rabbit, thyme, bay leaf)",
+Carciofi Alla Romana,Italy,"Artichokes, garlic, mint, parsley, olive oil, lemon",
+Singing Hinny,United Kingdom,"Flour, baking powder, salt, sugar, butter, lard, milk, currants, eggs, nutmeg (optional), cinnamon (optional).","Singin' hinny, fatty cutty"
+Taiyaki,Japan,"Flour, sugar, baking powder, salt, eggs, water, red bean paste, sweetened milk (optional), chocolate (optional), custard (optional), cheese (optional), sweet potato paste (optional).",
+Anticucho,Ecuador; Peru; Bolivia,"Beef heart, vinegar, garlic, cumin, aji pepper, oil, salt, pepper, skewers",Anticuchos de corazon
+Huevos Motuleños,Mexico,"Tortillas, black beans, eggs, salsa rojo, ham, peas, cheese, fried plantains, avocado (optional), epazote [optional], pickled onions [optional]",
+Svartsoppa,Sweden,"Goose or pig blood, vinegar, sugar, black pepper, allspice, cloves, ginger, cinnamon, salt, broth, butter, flour, [cream (optional)], [fruit preserves (optional)], [brandy or another spirit (optional)]",Black Soup
+Queimada,Spain,"Orujo, sugar, lemon peel, orange peel, coffee beans, cinnamon stick, (optional: additional fruits, coffee liqueur, brandy).",
+Jujeh Kabab,Iran,"Chicken, onion, lemon juice, saffron, yogurt, olive oil, salt, pepper, bell peppers (optional), tomatoes (optional)",
+Rundstück Warm,Germany,"Pork roast, gravy, bread roll, mustard (optional), pickles (optional), cabbage (optional).",
+Fool's Gold Loaf,United States,"Bread, creamy peanut butter, grape jelly, bacon",
+Kibbeh Nayyeh,Jordan; Palestine; Syria; Lebanon; Cyprus; Turkey,"Lean ground lamb, bulgur wheat, onion, olive oil, salt, black pepper, allspice, cinnamon, marjoram, fresh mint (optional), fresh basil (optional), radishes (optional), scallions (optional), pine nuts (optional).",
+Selsko Meso,Bulgaria; Serbia; North Macedonia; Albania,"pork, beef (optional), mushrooms, onions, garlic, tomatoes, paprika, white wine, cooking oil, salt, black pepper, bay leaves, parsley, smoked bacon (optional), sausage (optional), yellow cheese (optional), bell peppers (optional), carrots (optional)",
+Pineapple Bun,Hong Kong,"Flour, sugar, butter, eggs, yeast, milk, condensed milk, custard powder, baking powder, salt, vanilla extract, water, powdered milk, egg wash.",bo lo baau
+Satsivi,Georgia,"Chicken, walnuts, garlic, onion, coriander, fenugreek, saffron, vinegar, salt, pepper, bay leaves, clove, cinnamon, oil, water, flour, (optional: chili pepper, turmeric).",
+Pimm's Cup,United Kingdom,"Gin-based liqueur, lemonade, mint, cucumber, orange, strawberry, apple (optional), lemon (optional), borage (optional), sparkling water (optional), ginger ale (optional)",
+Onomichi Ramen,Japan,"Soy sauce, pork back fat, chicken broth, soy sauce tare, dashi, Chinese wheat noodles, green onions, bamboo shoots, chashu pork, narutomaki, nori, (optional) bean sprouts, (optional) garlic, (optional) pickled ginger",
+Pot-au-feu,France,"Beef (such as chuck roast or brisket), beef bone marrow, carrots, onions, leeks, celery, turnips, cloves, garlic, bouquet garni (a bundle of herbs), salt, pepper",
+Thüringer Rostbratwurst,Germany,"Pork, beef, salt, pepper, marjoram, garlic, caraway (optional), nutmeg (optional), mace (optional), lemon zest (optional).",Thuringian Sausage
+Lemon Pepper Wings,United States,"Chicken wings, lemon zest, lemon juice, black pepper, salt, garlic powder, onion powder, olive oil, butter (optional), honey (optional), parsley (optional).",
+Sheki Halva,Azerbaijan,"Rice flour, wheat flour, sugar, hazelnuts, walnuts (optional), cardamom, lemon juice, butter, egg whites, water, saffron (optional), rose water (optional)",
+Sunday Roast,United Kingdom,"Potatoes, carrots, onions, garlic, roast beef, gravy, Yorkshire puddings, green beans",Roast Dinner
+Brenebon,Indonesia,"Kidney beans, pork or beef, onion, garlic, bay leaves, nutmeg, cloves, pepper, salt, sugar, coconut milk, scallions, tomatoes, (optional) chilies, (optional) celery, (optional) carrots.","Bruine bonen soep, sup kacang merah"
+Pyeonsu,North Korea; South Korea,"Common fillings include: beef, pork, chicken and pheasant meat, tofu, mung bean sprouts, mushrooms, oyster, whole pine nuts. The stuffings are seasoned with salt and black pepper, ground toasted sesame, sesame oil, and minced aromatic vegetables such as scallions, ginger, and garlic",
+Bacon Sandwich,United Kingdom,"Bread, bacon, butter, ketchup (optional), brown sauce (optional)","Bacon butty, bacon sarnie, rasher sandwich, bacon cob, bacon barm, bacon muffin"
+Pagliata,Italy,"Veal intestines, tomato sauce, garlic, olive oil, red wine, pecorino cheese, parsley, salt, pepper (optional: onion, chili flakes, white wine, bay leaves)",
+Imqaret,Malta,"Dates, flour, water, butter, sugar, aniseed, cloves, orange zest, lemon zest, cinnamon, (optional) brandy, (optional) vanilla extract",
+Krupuk ikan,Indonesia,"Fish, tapioca flour, salt, sugar, garlic, water, pepper, (optional: Shrimp, shallots, spices).",
+Crisp Sandwich,United Kingdom; Ireland,"Bread, crisps, butter","Chip sandwich, chipwich, potato chip sandwich"
+Gachas,Spain,"Wheat flour, grass pea flour or corn flour",
+Étouffée,United States,"Onions, bell peppers, celery, butter, flour, garlic, chicken or seafood stock, Worcestershire sauce, hot sauce, salt, black pepper, cayenne pepper, paprika, bay leaves, thyme, parsley, green onions, shrimp or crawfish",
+Prahok,Cambodia,"Fermented fish paste, garlic, lemongrass, kaffir lime leaves, galangal, shallots, chili peppers, fish sauce, sugar, (optional: coconut milk, minced pork, eggplant).","prahoc, prohok, prohoc"
+Pepián,Guatemala,"Meat (chicken, beef, pork), tomatoes, onions, garlic, bell peppers, chili peppers, gourd seeds, sesame seeds, cloves, cinnamon, cumin, coriander, black pepper, salt, water",
+Jhilinga,Nepal,"Rice flour, water, sugar, salt, oil, (optional ghee), (optional fermented batter).",
+Fricassee,France,"Chicken, onion, garlic, carrots, celery, flour, white wine, chicken stock, egg yolks, lemon juice, parsley, butter, thyme, (mushrooms optional), (peas optional), (cream optional), (bay leaf optional)",
+Focaccia,Italy,"flour, water, yeast, salt, olive oil, rosemary",
+Kusaya,Japan,"Fish, salt, water, rice bran (optional), koji mold (optional).",
+Butifarra Soledeñas,Colombia,"Pork sausage, tomatoes, onions, bell peppers, garlic, cilantro, cumin, black pepper, achiote, oil, salt, (optional) lime, (optional) sweet corn, (optional) potatoes",
+Sate Bandeng,Indonesia,"Milkfish, coconut milk, grated coconut, shallots, garlic, coriander, turmeric, candlenuts, sugar, salt, lemongrass, galangal, lime leaves, tamarind (optional), chili (optional).",
+Tangyuan,China,"Glutinous rice flour, water, black sesame paste, sugar, lard or butter, ginger, rock sugar, sweet osmanthus (optional), red bean paste (optional), peanut filling (optional).",Yuanxiao
+Proben,Philippines,"Chicken skin, chicken neck cartilage, flour, cornstarch, garlic powder, onion powder, salt, pepper, oil, egg (optional), soy sauce (optional).",Proven
+Veal Oscar,Sweden,"Veal, crab meat, asparagus, hollandaise sauce, butter, lemon juice, salt, pepper, (paprika), (parsley), (egg yolks).",
+Dapanji,China,"Chicken, potatoes, bell peppers, onions, garlic, ginger, soy sauce, chili peppers, Sichuan peppercorns, star anise, cooking oil, dark soy sauce (optional), carrots (optional), tomato (optional), beer (optional), green onions (optional).",Big plate chicken
+Afghan (biscuit),New Zealand,"Butter, sugar, flour, cornflakes, cocoa powder, chocolate icing, walnuts (optional)",
+Stuffat Tal-Fenek,Malta,"Rabbit, onions, garlic, tomatoes, carrots, potatoes, red wine, bay leaves, olive oil, peas, salt, pepper, (bacon), (chicken stock), (fresh herbs like rosemary or thyme), (lemon zest), (tomato paste)",
+Boquerones En Vinagre,Spain,"Fresh anchovies, vinegar, olive oil, garlic, salt, parsley, (optional) pepper, (optional) lemon.",
+Leberknödel,Austria; Czechia; Germany,"Liver, breadcrumbs, onions, eggs, marjoram, parsley, nutmeg, salt, pepper, milk (optional), garlic (optional), flour (optional).",Liver dumplings
+Dhindo,Nepal,"Buckwheat, millet or corn flour, water, ghee (optional), salt (optional), garlic (optional)",
+Falculelle,France,"Brocciu cheese, eggs, sugar, lemon zest, semolina, flour (optional), vanilla (optional), orange zest (optional), powdered sugar (optional)",
+Ants Climbing A Tree,China,"Glass noodles, ground pork, soy sauce, Shaoxing wine, chicken broth, doubanjiang, garlic, ginger, scallions, sesame oil, cornstarch, vegetable oil, Sichuan peppercorns, dried chili peppers (optional), sugar (optional)",
+Shwe Yin Aye,Myanmar,"Sticky rice, coconut milk, sago pearls, agar jelly, sugar, water, bread, pandan leaves, condensed milk (optional), rose syrup (optional), ice cream (optional).",
+Puchero,Spain,"Beef, pork, chicken, chorizo, chickpeas, potatoes, carrots, cabbage, corn, tomatoes, onion, garlic, parsley, salt, pepper, paprika, saffron",
+Morcilla de Burgos,Spain,"Rice, pig's blood, onion, lard, salt, paprika, black pepper, oregano, garlic, (optional) pine nuts.",
+Italian Ice,United States; Italy,"Water, sugar, fruit juice, fruit puree, lemon juice (optional), natural flavorings (optional)",
+Miso soup,Japan,"Dashi, miso paste, tofu, wakame seaweed, green onions",
+Leberkäse,Austria; Switzerland; Germany,"Beef, pork, bacon, onions (optional), salt, pepper, nutmeg (optional), coriander (optional), marjoram (optional), cardamom (optional).","Fleischkäse, Fleischlaib"
+Tirggel,Switzerland,"Honey, sugar, flour, water, lemon zest, cinnamon, cloves, nutmeg, ginger",
+Cremino,Italy,"Chocolate, hazelnuts, sugar, cocoa butter, vanilla, milk, cream, butter, cocoa powder, salt, nuts (optional).",
+Sodd,Norway,"Mutton, potatoes, carrots, leeks, onions, black pepper, water, salt, (optional: beef, celery, parsley).",
+Carniolan Sausage,Slovenia,"Pork, bacon, garlic, salt, black pepper, marjoram, water, pork casing.",
+Machacado Con Huevo,Mexico,"Eggs, dried beef, tomatoes, onions, jalapeños, cilantro (optional), garlic (optional), salt, pepper, oil","Machaca con huevo, Huevos con machaca"
+Guryev Porridge,Russia,"Semolina, milk, sugar, butter, nuts, dried fruits, cream, vanilla (optional), fruit preserves (optional), egg whites (optional).",
+Rebujito,Spain,"Fino sherry, lemon-lime soda, ice, fresh mint leaves (optional), lemon slices (optional)",
+Spaghettieis,Germany,"Vanilla ice cream, whipped cream, strawberry sauce, white chocolate shavings, chocolate chips (optional), nuts (optional), wafer (optional).",Spaghetti ice cream
+Sloppy Joe (NJ),United States,"Rye bread, Russian dressing, sliced deli meats, coleslaw, Swiss cheese, pickles (optional), sauerkraut (optional), mustard (optional)",
+Tajine Mtewem,Algeria,"Lamb, ground beef or lamb, onions, garlic, chickpeas, cinnamon, black pepper, white pepper, sweet paprika, salt, olive oil, water, lemon juice.","Tagine mtewem, Mtewem"
+Ghugni,Bangladesh; India,"Dried yellow peas, potatoes, turmeric powder, cumin powder, coriander powder, garam masala, onion, tomato, green chilies, ginger, garlic, cilantro, lemon juice, salt, oil, (optional) coconut, (optional) tamarind paste, (optional) green peas, (optional) meat",
+Msabbaha,Oman; Jordan; Bahrain; Palestine; Qatar; United Arab Emirates; Iraq; Syria; Israel; Lebanon; Iran; Egypt; Cyprus; Turkey; Kuwait; Saudi Arabia,"Chickpeas, tahini, lemon juice, garlic, olive oil, cumin, paprika, parsley, salt, pepper, (optional) pine nuts, (optional) pomegranate seeds, (optional) chili flakes.","Musabbaḥa, mashausha"
+Stegt Flæsk,Denmark,"Potatoes, pork",
+Ayam Bakar,Indonesia; Brunei; Malaysia; Singapore,"Chicken, shallots, garlic, candlenuts, turmeric, coriander, lemongrass, galangal, tamarind, coconut milk, sweet soy sauce, salt, palm sugar",
+Sundubu-jjigae,North Korea; South Korea,"Soft tofu, kimchi, pork, beef, seafood (optional), gochugaru, gochujang (optional), sesame oil, garlic, onion, spring onions, mushrooms, zucchini (optional), egg (optional), salt, pepper, soy sauce.",Soft tofu stew
+Nilagang Saging,Philippines,Boiled saba bananas,"Nilagang saging na saba, Nilagang saba, Nilung-ag na saging, Linung-ag na saging"
+Banketstaaf,Netherlands,"Flour, butter, sugar, almond paste, eggs, milk, salt, cinnamon [optional].","Dutch Letter, Banket, banketletter, boterletter, and letterbanket"
+Gerber Sandwich,United States,"Italian bread, garlic butter, ham, processed cheese, paprika, parsley (optional)",
+Steak And Eggs,Australia; United States; Canada,"Beef steak, eggs, salt, black pepper, butter, oil, garlic (optional), herbs (optional), potatoes (optional), onions (optional), mushrooms (optional), toast (optional).",
+Undhiyu,India,"Potatoes, eggplants, broad beans, green peas, yam, raw banana, methi leaves, coriander leaves, coconut, garlic, green chillies, ginger, sesame seeds, peanuts, salt, turmeric, ground coriander, ground cumin, asafoetida, oil, lemon juice, sugar, ajwain seeds, carom seeds, mustard seeds, cumin seeds, water, (optional: sweet potatoes, surti papdi, flat beans, spinach, bottle gourd, fresh fenugreek leaves, grated coconut, jaggery or sugar).",
+Battenberg Cake,United Kingdom,"Flour, sugar, butter, eggs, baking powder, almond extract, strawberry jam, marzipan",
+Korean Taco,United States,"Beef, garlic, green onions, soy sauce, sugar, sesame oil, lettuce, tortillas, kimchi, sriracha, cilantro, lime, radish, cucumber, (optional: gochujang, mayonnaise, carrots, sesame seeds).",
+Sapin-sapin,Philippines,"Glutinous rice flour, coconut milk, sugar, violet food coloring, yellow food coloring, jackfruit, coconut flakes, margarine or butter, sweetened condensed milk, pandan essence optional, latik optional.",
+Date Square,Canada,"Dates, oats, flour, brown sugar, butter, baking soda, water, salt, vanilla extract (optional), lemon juice (optional), nuts (optional).","Matrimonial cake, date crumbles"
+Frango Piri-piri,Angola; Portugal; Mozambique,"Chicken, piri-piri chili peppers, garlic, lemon juice, olive oil, salt, pepper, paprika, oregano, (optional) thyme, (optional) bay leaves, (optional) vinegar.",
+Doubles,Trinidad and Tobago,"Chickpeas, Flour, Water, Yeast, Turmeric, Cumin, Garlic, Onion, Pepper, Salt, Sugar, Baking Powder, Oil",
+Thua Nao,Myanmar; Thailand,"Soybeans, salt, water, (garlic), (ginger), (chili pepper).",Pè bok
+Cannoli,Italy,"Ricotta cheese, sugar, cinnamon, vanilla extract, chocolate chips, pistachios, lemon zest, orange zest, flour, egg, butter",
+Chairo,Peru; Chile; Bolivia,"Beef, carrots, potatoes, corn, peas, pumpkin, cabbage, noodle, garlic, onion, tomato, oregano, cumin.",
+Cocido Lebaniego,Spain,"Chickpeas, pork ribs, chorizo, blood sausage, black pudding, ham, cabbage, carrots, potatoes",Cocíu lebaniegu
+Salteña,Bolivia,"Beef or chicken, potatoes, peas, olives, raisins, hard-boiled eggs, onions, garlic, paprika, cumin, oregano, sugar, flour, lard or butter, baking powder, gelatin, [chopped bell peppers], [vinegar], [chili peppers], [assorted herbs], [various spices].",
+Tinutuan,Indonesia,"Rice, water, pumpkin, sweet potato, corn, spinach, kale, basil, chillies, spring onion, salt, pepper, shallots, garlic, fish or meat broth (optional), coconut milk (optional).","Bubur Manado, Manadonese porridge"
+American Goulash,United States,"Macaroni, ground beef, onion, garlic, tomato sauce, diced tomatoes, Italian seasoning, sugar, salt, pepper",Slumgullion
+Gingerbread Man,United Kingdom,"Flour, sugar, butter, baking soda, ground ginger, cinnamon, egg, golden syrup, molasses (optional), cloves (optional), nutmeg (optional), salt (optional).",
+Fried Milk,Hong Kong; Macau; China,"Milk, cornstarch, sugar, eggs, bread crumbs, vanilla extract (optional), condensed milk (optional).",
+Mshikaki,Uganda; Burundi; Kenya; Zimbabwe; Eritrea; Ethiopia; Réunion; Mauritius; Malawi; Rwanda; Zambia; Comoros; Djibouti; Madagascar; South Sudan; Seychelles; Mozambique; Mayotte; Somalia; Tanzania,"Beef, onions, garlic, ginger, lemon juice, soy sauce, chili powder, salt, black pepper, vegetable oil, tomatoes (optional), bell peppers (optional), vinegar (optional), yogurt (optional).",
+Piti,Kyrgyzstan; Armenia; Uzbekistan; Georgia; Tajikistan; Azerbaijan; Kazakhstan; Iran; Turkmenistan,"lamb, chickpeas, onion, tomatoes, potatoes, dried fruits (optional), saffron (optional), turmeric, salt, pepper, garlic, chestnuts (optional), bell peppers (optional)",
+Twelve Grapes,Spain,12 grapes,
+Bakmi,Belgium; Indonesia; Singapore; Suriname; Laos; Thailand,"Noodles, chicken, garlic, soy sauce, sesame oil, baby bok choy, scallions, fried shallots, chilies (optional), mushrooms (optional), fish balls (optional), shrimp (optional)","Bami, bakmie"
+Parmesan,Italy,"Milk, enzymes, salt",
+Boyoz,Turkey,"Flour, water, olive oil, tahini, yeast, salt, sugar, margarine (optional), egg (optional).",
+Jansson's Temptation,Sweden,"Potatoes, onions, anchovies, heavy cream, breadcrumbs, butter, milk, salt, pepper, dill (optional), garlic (optional)",Janssons frestelse
+Shish Taouk,Oman; Jordan; Armenia; Georgia; Bahrain; Palestine; Qatar; Azerbaijan; United Arab Emirates; Iraq; Syria; Israel; Lebanon; Iran; Egypt; Cyprus; Turkey; Kuwait; Saudi Arabia,"Chicken, yogurt, lemon juice, garlic, olive oil, tomato paste, paprika, cumin, coriander, salt, black pepper, (optional: cayenne pepper, turmeric, onions, bell peppers, fresh parsley, sumac, mint leaves)",
+Aeropuerto,Peru,"Rice, Chinese noodles, chicken, pork, shrimp, soy sauce, green onions, egg, ginger, garlic, red bell pepper, vegetable oil, sesame oil, oyster sauce",
+Sharbat (drink),Oman; Jordan; Pakistan; Sri Lanka; Bangladesh; Bahrain; Palestine; Qatar; Morocco; Yemen; Bosnia and Herzegovina; Comoros; India; Afghanistan; United Arab Emirates; Iraq; Djibouti; Syria; Lebanon; Iran; Mauritania; Sudan; Egypt; Libya; Somalia; Tunisia; Turkey; Algeria; Kuwait; Saudi Arabia,"Water, Sugar, Rose Water, Lemon Juice, Ice Cubes, (optional: Falooda, Basil Seeds, Fruits, Syrups, Herbs)",
+Masaura,Nepal,"Black lentils, taro stem, garlic, ginger, cumin seeds, coriander seeds, turmeric powder, red chili powder, salt, mustard oil, onion, tomatoes, green chilies, asafoetida, garam masala, green peas (optional), spinach (optional).",
+Vegemite,Australia,"Yeast Extract, Salt, Vegetables Extracts, Niacin, Thiamine, Riboflavin, Folic Acid",
+Qazı,Kyrgyzstan; Uzbekistan; Tajikistan; Kazakhstan; Turkmenistan,"Horsemeat, Salt, Black pepper, Garlic, Spices (optional)",
+Pizza Margherita,Italy,"Wheat, cheese, tomato, basil",
+Nilasing Na Hipon,Philippines,"Shrimp, flour, cornstarch, baking powder, beer, salt, pepper, garlic, onion, oil, egg(optional), vinegar(optional), soy sauce(optional), chili flakes(optional).","Drunken shrimp, crispy fried drunken shrimp"
+Tapenade,France,"Olives, capers, anchovies, garlic, olive oil, lemon juice, and herbs.",
+Larb,Laos; Thailand,"Chicken, beef, duck, turkey meat, pork","Lap, Larp, Lahp, Lahb, Laab"
+Rössypottu,Finland,"Blood sausage, potatoes, pork, onions, water, salt, black pepper, marjoram, allspice, carrots (optional), bay leaf (optional)",
+Bakestones,United Kingdom,"Flour, sugar, butter, lard, currants or raisins, baking powder, milk, eggs, cinnamon or nutmeg (optional), mixed spice (optional).",Welsh Cake
+Beef Bourguignon,France,"beef, bacon, onion, carrots, garlic, mushrooms, tomato paste, red wine, beef broth, thyme, bay leaves, parsley, salt, pepper","Beef Burgundy, bœuf à la bourguignonne"
+Chicken Colombo,Guadeloupe; Martinique,"Chicken, Colombo spice blend, onion, garlic, ginger, thyme, scallions, eggplant, zucchini, potatoes, vegetable oil, lime juice, salt, black pepper, hot pepper (optional), bay leaf (optional), okra (optional), coconut milk (optional), rice (optional)",
+Algerian Baklawa,Algeria,"Phyllo dough, almonds, walnuts, sugar, butter, honey, cinnamon, orange blossom water","Beklawa, Baklava"
+Biff Rydberg,Sweden,"Beef, potatoes, onions, butter, heavy cream, Worcestershire sauce, parsley, egg yolks (optional)",
+Makdous,Jordan; Palestine; Syria; Lebanon,"Eggplants, walnuts, garlic, red pepper paste, salt, olive oil, (optional) lemon juice.",
+Mandelkubb,Sweden,"Almond paste, sugar, butter, eggs, flour, baking powder, ammonium carbonate, milk, slivered almonds (optional), vanilla extract (optional).",
+Francesinha Poveira,Portugal,"Bullet-duro (bread), linguiça (sausage), fiambre (ham), pork, beef, cheese, tomatoes, butter, mustard (optional)",Francesinha
+Esgarrat,Spain,"Red peppers, salt cod, olive oil, garlic, black olives, (optional) onions, (optional) tomatoes, (optional) vinegar.",
+Kare-kare,Philippines,"Oxtail, tripe, eggplant, string beans, banana heart, peanut butter",
+T'anta Wawa,Peru; Colombia; Bolivia; Ecuador; Argentina,"Flour, water, yeast, sugar, milk, butter, eggs, salt, anise seeds, baking powder, orange zest, food coloring (optional), raisins (optional), nuts (optional).","Baby Bread, guagua de pan, tantaguaguas, tantahuahua, wawas de pan, tantawawas and muñecas de pan"
+Sate Bandeng,Indonesia,"Milkfish, coconut milk, grated coconut, shallots, garlic, coriander, turmeric, candlenuts, sugar, salt, lemongrass, galangal, lime leaves, tamarind (optional), chili (optional).",
+Kottenbutter,Germany,"Rye bread, butter, onions, smoked pork sausage, mustard",
+Korone,Japan,"Flour, water, sugar, salt, butter, yeast, milk, eggs, cornmeal, sesame seeds (optional), poppy seeds (optional).","Corone, cornet, coronet"
+Ostkaka,Sweden,"Milk, flour, eggs, sugar, rennet, almonds, cream, butter, vanilla, (optional) sour cream, (optional) cardamom.","Swedish cheesecake, Swedish curd cake"
+Kuzu Tandır,Turkey,"Lamb, onion, garlic, salt, black pepper, butter, bay leaves (optional), rosemary (optional), yogurt (optional), lemon juice (optional), olive oil (optional).","Lamb tandoori, tandoori kebab"
+Pozole,Mexico,"Pork shoulder, dried hominy, onion, garlic, dried chilies, oregano, cumin, bay leaves, salt, avocado, radishes, cilantro, lime, cabbage.",
+Hyderabadi Haleem,India,"Wheat, mutton, ghee, lentils, onions, ginger, garlic, chili, yogurt, lemon juice, coriander leaves, mint leaves, black pepper, cinnamon, cloves, cardamom, cumin, turmeric, salt, green chilies, saffron.",Hyderabadi harees
+Papet Vaudois,Switzerland,"Leeks, potatoes, onions, sausage, white wine, butter, salt, pepper, cream (optional)",
+Gujhia,India,"All-purpose flour, semolina, ghee, powdered sugar, dry fruits, shredded coconut, cardamom powder, milk, khoya, mawa, saffron(optional), pistachios(optional), almonds(optional), raisins(optional), poppy seeds(optional).","Gughara, Pedakiya, Purukiya, Karanji, Kajjikayalu, Somas, and Karjikayi"
+Schneemaß,Germany,"Beer, lemon soda, lemon slice (optional)",
+Griot,Haiti,"Pork, garlic, onion, orange juice, lime juice, vinegar, thyme, scotch bonnet pepper, shallots, cloves, salt, black pepper, oil, (optional) bell peppers, (optional) bouillon cube, (optional) parsley.",
+Beef Kway Teow,Indonesia; Malaysia; Singapore; China,"Flat rice noodles, beef slices, garlic, soy sauce, dark soy sauce, oyster sauce, vegetable oil, bean sprouts, choy sum, egg (optional), chili (optional), fish sauce (optional), black pepper (optional), fried shallots (optional)",Kwetiau Sapi
+Arroz Carreteiro,Brazil,"Rice, beef jerky, onion, garlic, tomato, green bell pepper, oil, parsley, salt, black pepper, scallion (optional), sausage (optional), bacon (optional), paprika (optional)",Carreteiro rice
+Tacu-tacu,Peru,"Rice, beans, onion, garlic, oil, salt, pepper, cumin, ají amarillo, meat (optional), egg (optional), plantain (optional)",
+Boeber,South Africa,"Milk, vermicelli, sugar, sago, cardamom, cinnamon, rose water, vanilla essence, butter, nuts (optional), coconut (optional).",
+Café Con Leche,Spain,"Espresso, milk, sugar (optional), cinnamon (optional).",Cafebar
+Nikogori,Japan,"Fish (yellowtail, conger eel, pufferfish), or pork, soy sauce, mirin, sake, gelatin, dashi, (optional: mushrooms, carrots, green onions, seaweed)",
+Coronation Chicken,United Kingdom,"Chicken, mayonnaise, curry powder, mango chutney, lemon juice, apricots (optional), raisins (optional), almonds (optional), celery (optional), parsley (optional)",
+Cream Stew,Japan,"Onions, carrots, potatoes, chicken, butter, flour, milk, salt, pepper",
+Tongue Toast,United States,"Calf's tongue, bread, butter, eggs, milk, salt, pepper, parsley (optional), lemon juice (optional), mustard (optional), horseradish (optional).",
+Egg Foo Young,United States; China,"Eggs, vegetables (such as bean sprouts, green onions, and mushrooms), meats (such as pork, chicken, or shrimp), soy sauce, salt, pepper, cooking oil","Egg fooyung, egg foo yong, egg foo yung, egg fu yung, or fu yung hai"
+Larb,Laos; Thailand,"Chicken, beef, duck, turkey meat, pork","Lap, Larp, Lahp, Lahb, Laab"
+Pantruca,Chile; Argentina,"Flour, water, salt, egg, beef broth, onions, carrots, garlic, oil, parsley, (optional: potatoes, pumpkin, paprika, bell peppers, chicken, celery, cumin, oregano, pepper)",
+Pesaha Appam,India,"Rice flour, coconut milk, water, jaggery, cumin seeds, urad dal, ghee, banana leaves (optional), coconut bits (optional)",Kurishappam
+Khanom Krok,Thailand,"Coconut milk, rice flour, sugar, salt, green onions (optional), taro (optional), corn (optional), pandanus leaf juice (optional)",
+Abacus Seeds,China,"Tapioca starch, water, cornstarch, sunflower oil, salt",
+Tambun Biscuit,Malaysia,"Wheat flour, sugar, mung beans, margarine, white sesame seeds, egg yolk, maltose, salt, shallots, water, red bean paste (optional), mung bean paste (optional).",

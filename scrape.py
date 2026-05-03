@@ -103,7 +103,7 @@ def extract_dish_and_countries(page_text):
         "Saint Helena, Ascension and Tristan da Cunha", "Cook Islands", "Niue", "Tokelau", "Åland Islands", "Ivory Coast", "Côte d'Ivoire",
         "French Southern and Antarctic Lands", "Réunion", "Mayotte", "Guadaloupe", "Martinique", "Saint Pierre and Miquelon",
         "Bermuda", "British Virgin Islands", "Falkland Islands", "Montserrat", "Turks and Caicos Islands", "Virgin Islands",
-        "Guadalupe", "Cayman Islands", "Republic of the Congo", "São Tomé and Príncipe", "DR Congo", "American Samoa",  "French Polynesia",
+        "Guadeloupe", "Cayman Islands", "Republic of the Congo", "São Tomé and Príncipe", "DR Congo", "American Samoa",  "French Polynesia",
         "Cocos (Keeling) Islands", "Christmas Island", "Guam"
     }
     
