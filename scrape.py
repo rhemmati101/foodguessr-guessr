@@ -8,60 +8,10 @@ import csv
 import time
 import numpy as np
 
-website: str = "https://www.foodguessr.com/game/random"
-chrome_path = Path(__file__).parent / "chrome_driver" / "chrome"
-
-# Configure Chrome options
-chrome_options = Options()
-chrome_options.binary_location = str(chrome_path)
-chrome_options.add_argument("--headless=new")
-chrome_options.add_argument("--no-sandbox")
-chrome_options.add_argument("--disable-setuid-sandbox")
-chrome_options.add_argument("--disable-dev-shm-usage")
-chrome_options.add_argument("--disable-gpu")
-chrome_options.add_argument("--disable-extensions")
-chrome_options.add_argument("--disable-plugins")
-chrome_options.add_argument("--no-first-run")
-chrome_options.add_argument("--no-default-browser-check")
-
-driver = webdriver.Chrome(options=chrome_options)
-
-
-driver.get(website)
-
-# Wait for the page to load
-time.sleep(np.random.uniform(1.5, 3))
-
-#try to fail the game, then extract dish name and countries of origin
-i = 1
-max_attempts = 5
-while driver.current_url == website and "Description" in driver.page_source and i <= max_attempts:
-    actions = ActionChains(driver)
-
-    actions.send_keys("s")
-    actions.perform()
-    time.sleep(0.2)
-    
-    actions = ActionChains(driver)
-    actions.send_keys("a")
-    actions.perform()
-    time.sleep(0.2)
-    
-    actions = ActionChains(driver)
-    actions.send_keys(Keys.ENTER)
-    actions.perform()
-
-    time.sleep(0.2)
-    i += 1
-
-print(f"Exited loop after {i-1} attempts.")
-
-time.sleep(1.5)  # Wait a moment for the page to update
-
 def extract_dish_and_countries(page_text):
     """
     Extracts the dish name and countries of origin from raw webpage text.
-    
+
     Args:
         page_text (str): The raw text content from the webpage
         
@@ -106,49 +56,49 @@ def extract_dish_and_countries(page_text):
         "Guadeloupe", "Cayman Islands", "Republic of the Congo", "São Tomé and Príncipe", "DR Congo", "American Samoa",  "French Polynesia",
         "Cocos (Keeling) Islands", "Christmas Island", "Guam"
     }
-    
+
     lines = [line.strip() for line in page_text.split('\n') if line.strip()]
-    
+
     # Find "Report an issue"
     report_issue_idx = None
     for i, line in enumerate(lines):
         if "Report an issue" in line:
             report_issue_idx = i
             break
-    
+
     if report_issue_idx is None:
         return None, [], []
-    
+
     # Find the last navigation element (e.g., "Next slide", "Previous slide") before "Report an issue"
     nav_idx = None
     for i in range(report_issue_idx - 1, -1, -1):
         if "slide" in lines[i].lower():
             nav_idx = i
             break
-    
+
     if nav_idx is None:
         nav_idx = 1  # No navigation found, start 2 lines in???? #############################################################
         # copyright seems to be 2 lines long....
-    
+
     # Lines between navigation and "Report an issue" contain dish name and countries
     content_lines = lines[nav_idx + 1 : report_issue_idx]
-    
+
     if not content_lines:
         return None, [], []
-    
+
     # First line is dish name
     dish_name = content_lines[0]
-    
+
     # Split the remaining lines into countries and alternate names
     countries = [line for line in content_lines[1:] if line in known_countries]
     alternate_names = [line for line in content_lines[1:] if line and line not in known_countries]
-    
+
     return dish_name, countries, alternate_names
 
 def extract_ingredients(page_text):
     """
     Extracts the ingredients section from raw webpage text.
-    
+
     Args:
         page_text (str): The raw text content from the webpage
         
@@ -161,40 +111,91 @@ def extract_ingredients(page_text):
         ingredients_text = ingredients_section.split("Pass")[0]
         
         return ingredients_text.strip()
-    
+
     return None
 
 
-page_text = driver.find_element(By.TAG_NAME, 'body').text
-print(page_text.partition("Pass")[0])
+if __name__ == "__main__":
+    website: str = "https://www.foodguessr.com/game/random"
+    chrome_path = Path(__file__).parent / "chrome_driver" / "chrome"
 
-# Extract dish name, countries, and alternate names
-dish_name, countries, alternate_names = extract_dish_and_countries(page_text)
-print(f"Dish Name: {dish_name}")
-print(f"Countries of Origin: {countries}")
-print(f"Alternate Names: {alternate_names}")
+    # Configure Chrome options
+    chrome_options = Options()
+    chrome_options.binary_location = str(chrome_path)
+    chrome_options.add_argument("--headless=new")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-setuid-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--disable-extensions")
+    chrome_options.add_argument("--disable-plugins")
+    chrome_options.add_argument("--no-first-run")
+    chrome_options.add_argument("--no-default-browser-check")
 
-try:
-    ingredients_text = extract_ingredients(page_text)
-    print(f"Ingredients: {ingredients_text}")
-except Exception as e:
-    ingredients_text = None
-    print(f"Error extractingingredients: {e}")
+    driver = webdriver.Chrome(options=chrome_options)
 
-# Append extracted data to data.csv
-csv_path = Path(__file__).parent / "data.csv"
-if not csv_path.exists():
-    with csv_path.open("w", newline="", encoding="utf-8") as csvfile:
+
+    driver.get(website)
+
+    # Wait for the page to load
+    time.sleep(np.random.uniform(1.5, 3))
+
+    #try to fail the game, then extract dish name and countries of origin
+    i = 1
+    max_attempts = 5
+    while driver.current_url == website and "Description" in driver.page_source and i <= max_attempts:
+        actions = ActionChains(driver)
+
+        actions.send_keys("s")
+        actions.perform()
+        time.sleep(0.2)
+        
+        actions = ActionChains(driver)
+        actions.send_keys("a")
+        actions.perform()
+        time.sleep(0.2)
+        
+        actions = ActionChains(driver)
+        actions.send_keys(Keys.ENTER)
+        actions.perform()
+
+        time.sleep(0.2)
+        i += 1
+
+    print(f"Exited loop after {i-1} attempts.")
+
+    time.sleep(1.5)  # Wait a moment for the page to update
+
+    page_text = driver.find_element(By.TAG_NAME, 'body').text
+    print(page_text.partition("Pass")[0])
+
+    # Extract dish name, countries, and alternate names
+    dish_name, countries, alternate_names = extract_dish_and_countries(page_text)
+    print(f"Dish Name: {dish_name}")
+    print(f"Countries of Origin: {countries}")
+    print(f"Alternate Names: {alternate_names}")
+
+    try:
+        ingredients_text = extract_ingredients(page_text)
+        print(f"Ingredients: {ingredients_text}")
+    except Exception as e:
+        ingredients_text = None
+        print(f"Error extractingingredients: {e}")
+
+    # Append extracted data to data.csv
+    csv_path = Path(__file__).parent / "data.csv"
+    if not csv_path.exists():
+        with csv_path.open("w", newline="", encoding="utf-8") as csvfile:
+            writer = csv.writer(csvfile)
+            writer.writerow(["dish_name", "countries_of_origin", "ingredients", "alternate_names"])
+
+    with csv_path.open("a", newline="", encoding="utf-8") as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerow(["dish_name", "countries_of_origin", "ingredients", "alternate_names"])
+        writer.writerow([
+            dish_name or "",
+            "; ".join(countries) if countries else "",
+            ingredients_text or "",
+            "; ".join(alternate_names) if alternate_names else ""
+        ])
 
-with csv_path.open("a", newline="", encoding="utf-8") as csvfile:
-    writer = csv.writer(csvfile)
-    writer.writerow([
-        dish_name or "",
-        "; ".join(countries) if countries else "",
-        ingredients_text or "",
-        "; ".join(alternate_names) if alternate_names else ""
-    ])
-
-driver.quit()
+    driver.quit()
