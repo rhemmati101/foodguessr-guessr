@@ -8,18 +8,7 @@ import csv
 import time
 import numpy as np
 
-def extract_dish_and_countries(page_text):
-    """
-    Extracts the dish name and countries of origin from raw webpage text.
-
-    Args:
-        page_text (str): The raw text content from the webpage
-        
-    Returns:
-        tuple: (dish_name, countries_list) where countries_list is a list of strings
-    """
-    # List of known countries (can be expanded)
-    known_countries = {
+COUNTRIES_AND_TERRITORIES = {
         "Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Argentina", "Armenia", 
         "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", 
         "Belarus", "Belgium", "Belize", "Benin", "Bhutan", "Bolivia", "Bosnia and Herzegovina", 
@@ -56,6 +45,18 @@ def extract_dish_and_countries(page_text):
         "Guadeloupe", "Cayman Islands", "Republic of the Congo", "DR Congo", "American Samoa",  "French Polynesia",
         "Cocos (Keeling) Islands", "Christmas Island", "Guam"
     }
+
+def extract_dish_and_countries(page_text):
+    """
+    Extracts the dish name and countries of origin from raw webpage text.
+
+    Args:
+        page_text (str): The raw text content from the webpage
+        
+    Returns:
+        tuple: (dish_name, countries_list) where countries_list is a list of strings
+    """
+    known_countries = COUNTRIES_AND_TERRITORIES
 
     lines = [line.strip() for line in page_text.split('\n') if line.strip()]
 

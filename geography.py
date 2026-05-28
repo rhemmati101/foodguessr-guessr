@@ -1,5 +1,6 @@
 import geopandas as gpd
 import pycountry
+from scrape import COUNTRIES_AND_TERRITORIES
 
 url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_map_units.geojson"
 world = gpd.read_file(url)
@@ -83,7 +84,22 @@ def check_border(name_a, name_b):
 
     return geom_a.touches(geom_b)
 
+# returns Foodguessr version of names
 def bordering_countries(name):
+    map_name = get_map_name(name)
+    country_geom = world[world['NAME'] == map_name].geometry.iloc[0]
+    
+    neighbors = []
+    for idx, row in world.iterrows():
+        if row['NAME'] != map_name and country_geom.touches(row.geometry):
+            neighbors.append(row['NAME'])
+    
+    # map back to Foodguessr names
+    reverse_map = {v: k for k, v in FOODGUESSR_TO_MAP.items()}
+    neighbors = [reverse_map.get(n, n) for n in neighbors]
+    neighbors = [n for n in neighbors if n in COUNTRIES_AND_TERRITORIES]
+
+    return neighbors
 
 def get_country_distance(name_a, name_b):
     map_a = get_map_name(name_a)
@@ -183,3 +199,10 @@ if __name__ == "__main__":
             print(f"{c1 + ' & ' + c2:<30} | {result} ({dist} km)")
         except Exception as e:
             print(f"{c1 + ' & ' + c2:<30} | ERROR: {e}")
+
+
+    print("\nBordering countries for 'Germany':", bordering_countries("Germany"))
+    print("Bordering countries for 'Russia':", bordering_countries("Russia"))
+    print("Bordering countries for 'India':", bordering_countries("India"))
+    print("Bordering countries for 'Indonesia':", bordering_countries("Indonesia"))
+    print("Bordering countries for 'Puerto Rico':", bordering_countries("Puerto Rico"))
