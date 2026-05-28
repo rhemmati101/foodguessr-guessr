@@ -24,17 +24,46 @@ def repair_map_data(df):
 world = repair_map_data(world)
 
 FOODGUESSR_TO_MAP = {
+    # Standard Countries
+    "United Kingdom": "England", # map has parts of UK, treat as England for borders
     "United States": "United States of America",
+    "Antigua and Barbuda": "Antigua",
+    "Bahamas": "Bahamas",
+    "Bosnia and Herzegovina": "Fed. of Bos. & Herz.",
     "Cape Verde": "Cabo Verde",
-    "DR Congo": "Democratic Republic of the Congo",
+    "Central African Republic": "Central African Rep.",
+    "Republic of the Congo": "Congo",
+    "DR Congo": "Dem. Rep. Congo",
+    "Dominican Republic": "Dominican Rep.",
+    "Equatorial Guinea": "Eq. Guinea",
     "Eswatini": "eSwatini",
     "Ivory Coast": "Côte d'Ivoire",
+    "Marshall Islands": "Marshall Is.",
+    "Saint Vincent and the Grenadines": "St. Vin. and Gren.",
     "São Tomé and Príncipe": "São Tomé and Principe",
-    "Timor-Leste": "East Timor",
+    "Vatican City": "Vatican",
+    "Czech Republic": "Czechia",
+
+    # Territories & Dependencies
+    "British Virgin Islands": "British Virgin Is.",
+    "Cayman Islands": "Cayman Is.",
+    "Christmas Island": "Christmas I.",
+    "Cocos (Keeling) Islands": "Cocos Is.",
+    "Cook Islands": "Cook Is.",
+    "Falkland Islands": "Falkland Is.",
+    "Faroe Islands": "Faeroe Is.",
+    "French Polynesia": "Fr. Polynesia",
+    "French Southern and Antarctic Lands": "Fr. S. Antarctic Lands",
     "Macau": "Macao",
-    "Åland Islands": "Åland",
-    "Curacao": "Curaçao",
-    "Saint Barthélemy": "Saint-Barthélemy"
+    "Saint Barthélemy": "St-Barthélemy",
+    "Saint Martin": "St-Martin",
+    "Saint Pierre and Miquelon": "St. Pierre and Miquelon",
+    "Saint Helena, Ascension and Tristan da Cunha": "Saint Helena",
+    "Turks and Caicos Islands": "Turks and Caicos Is.",
+    "Virgin Islands": "U.S. Virgin Is.",
+    "Wallis and Futuna": "Wallis and Futuna Is.",
+    "Western Sahara": "W. Sahara",
+    "Åland Islands": "Åland"
 }
 
 def get_map_name(foodguessr_name):
@@ -50,10 +79,15 @@ def check_border(name_a, name_b):
     map_a = get_map_name(name_a)
     map_b = get_map_name(name_b)
     
+    print(map_a, map_b)
+
     # Now look them up in your 'world' dataframe
     geom_a = world[world['NAME'] == map_a].geometry.iloc[0]
     geom_b = world[world['NAME'] == map_b].geometry.iloc[0]
-    
+
+    print("geom_a:", geom_a)
+    print("geom_b:", geom_b)
+
     return geom_a.touches(geom_b)
 
 if __name__ == "__main__":
@@ -126,10 +160,12 @@ if __name__ == "__main__":
     print(f"{'TEST CASE':<30} | {'RESULT'}")
     print("-" * 50)
 
-    for c1, c2 in test_cases:
-        try:
-            result = check_border(c1, c2)
-            print(f"{c1 + ' & ' + c2:<30} | {result}")
-        except Exception as e:
-            print(f"{c1 + ' & ' + c2:<30} | ERROR: {e}")
+    #for c1, c2 in test_cases:
+    #    try:
+    #        result = check_border(c1, c2)
+    #        print(f"{c1 + ' & ' + c2:<30} | {result}")
+    #    except Exception as e:
+    #        print(f"{c1 + ' & ' + c2:<30} | ERROR: {e}")
 
+
+    check_border("United Kingdom", "France")
