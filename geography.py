@@ -186,7 +186,10 @@ if __name__ == "__main__":
         ("French Guiana", "Suriname"),
         ("Puerto Rico", "Dominican Republic"),
         ("Guernsey", "France"),
-        ("Gibraltar", "Spain")
+        ("Gibraltar", "Spain"),
+
+        ('South Korea', 'North Korea'),
+        ('Iran', 'Azerbaijan'),
     ]
 
     print(f"{'TEST CASE':<30} | {'RESULT'}")
@@ -205,4 +208,4 @@ if __name__ == "__main__":
     print("Bordering countries for 'Russia':", bordering_countries("Russia"))
     print("Bordering countries for 'India':", bordering_countries("India"))
     print("Bordering countries for 'Indonesia':", bordering_countries("Indonesia"))
-    print("Bordering countries for 'Puerto Rico':", bordering_countries("Puerto Rico"))
+    print("Bordering countries for 'Iran':", bordering_countries("Iran"))
