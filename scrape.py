@@ -25,7 +25,7 @@ def extract_dish_and_countries(page_text):
         "Belarus", "Belgium", "Belize", "Benin", "Bhutan", "Bolivia", "Bosnia and Herzegovina", 
         "Botswana", "Brazil", "Brunei", "Bulgaria", "Burkina Faso", "Burundi", "Cambodia", 
         "Cameroon", "Canada", "Cape Verde", "Central African Republic", "Chad", "Chile", "China", 
-        "Colombia", "Comoros", "Congo", "Costa Rica", "Croatia", "Cuba", "Cyprus",
+        "Colombia", "Comoros", "Costa Rica", "Croatia", "Cuba", "Cyprus",
         "Czechia", "Denmark", "Djibouti", "Dominica", "Dominican Republic", "Ecuador", "Egypt", 
         "El Salvador", "Equatorial Guinea", "Eritrea", "Estonia", "Eswatini", "Ethiopia", "Fiji", 
         "Finland", "France", "Gabon", "Gambia", "Georgia", "Germany", "Ghana", "Greece", "Grenada", 
@@ -47,13 +47,13 @@ def extract_dish_and_countries(page_text):
         "Turkey", "Turkmenistan", "Tuvalu", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", 
         "United States", "Uruguay", "Uzbekistan", "Vanuatu", "Vatican City", "Venezuela", "Vietnam", 
         "Yemen", "Zambia", "Zimbabwe",
-        "Hong Kong", "Macau", "Palestine", "Puerto Rico", "Greenland", "Faroe Islands", "French Guiana", "Gibraltar",
+        "Hong Kong", "Macau", "Puerto Rico", "Greenland", "Faroe Islands", "French Guiana", "Gibraltar",
         "Isle of Man", "Jersey", "Guernsey", "Aruba", "Curaçao", "Sint Maarten", "Bonaire", "Saba", "Saint Barthélemy",
-        "Saint Martin", "Saint Pierre and Miquelon", "Wallis and Futuna", "Western Sahara", "Kosovo", "Antigua and Barbuda", "Curaçao",
-        "Saint Helena, Ascension and Tristan da Cunha", "Cook Islands", "Niue", "Tokelau", "Åland Islands", "Ivory Coast", "Côte d'Ivoire",
+        "Saint Martin", "Wallis and Futuna", "Western Sahara", "Kosovo", "Antigua and Barbuda", 
+        "Saint Helena, Ascension and Tristan da Cunha", "Cook Islands", "Niue", "Tokelau", "Åland Islands", "Ivory Coast",
         "French Southern and Antarctic Lands", "Réunion", "Mayotte", "Martinique", "Saint Pierre and Miquelon",
         "Bermuda", "British Virgin Islands", "Falkland Islands", "Montserrat", "Turks and Caicos Islands", "Virgin Islands",
-        "Guadeloupe", "Cayman Islands", "Republic of the Congo", "São Tomé and Príncipe", "DR Congo", "American Samoa",  "French Polynesia",
+        "Guadeloupe", "Cayman Islands", "Republic of the Congo", "DR Congo", "American Samoa",  "French Polynesia",
         "Cocos (Keeling) Islands", "Christmas Island", "Guam"
     }
 

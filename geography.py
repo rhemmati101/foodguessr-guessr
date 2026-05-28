@@ -4,8 +4,6 @@ import pycountry
 url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_map_units.geojson"
 world = gpd.read_file(url)
 
-print(world[world['NAME'].str.contains("French Guiana")][['NAME', 'SOVEREIGNT']])
-
 # Replace -99 or missing codes
 def repair_map_data(df):
     code_col = 'ADM0_A3'
@@ -78,17 +76,35 @@ def check_border(name_a, name_b):
     # Convert both names to map-friendly names
     map_a = get_map_name(name_a)
     map_b = get_map_name(name_b)
-    
-    print(map_a, map_b)
 
     # Now look them up in your 'world' dataframe
     geom_a = world[world['NAME'] == map_a].geometry.iloc[0]
     geom_b = world[world['NAME'] == map_b].geometry.iloc[0]
 
-    print("geom_a:", geom_a)
-    print("geom_b:", geom_b)
-
     return geom_a.touches(geom_b)
+
+def bordering_countries(name):
+
+def get_country_distance(name_a, name_b):
+    map_a = get_map_name(name_a)
+    map_b = get_map_name(name_b)
+    
+    res_a = world[world['NAME'] == map_a]
+    res_b = world[world['NAME'] == map_b]
+    
+    if res_a.empty or res_b.empty:
+        return None
+
+    geom_a = res_a.geometry.iloc[0]
+    geom_b = res_b.geometry.iloc[0]
+
+    # Calculate distance in degrees
+    dist_degrees = geom_a.distance(geom_b)
+    
+    # Simple approximation: 1 degree ≈ 111 km
+    dist_km = dist_degrees * 111
+    
+    return round(dist_km)
 
 if __name__ == "__main__":
     test_cases = [
@@ -160,12 +176,10 @@ if __name__ == "__main__":
     print(f"{'TEST CASE':<30} | {'RESULT'}")
     print("-" * 50)
 
-    #for c1, c2 in test_cases:
-    #    try:
-    #        result = check_border(c1, c2)
-    #        print(f"{c1 + ' & ' + c2:<30} | {result}")
-    #    except Exception as e:
-    #        print(f"{c1 + ' & ' + c2:<30} | ERROR: {e}")
-
-
-    check_border("United Kingdom", "France")
+    for c1, c2 in test_cases:
+        try:
+            result = check_border(c1, c2)
+            dist = get_country_distance(c1, c2)
+            print(f"{c1 + ' & ' + c2:<30} | {result} ({dist} km)")
+        except Exception as e:
+            print(f"{c1 + ' & ' + c2:<30} | ERROR: {e}")
