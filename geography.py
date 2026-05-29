@@ -24,11 +24,22 @@ world = repair_map_data(world)
 
 FOODGUESSR_TO_MAP = {
     # Standard Countries
-    "United Kingdom": "England", # map has parts of UK, treat as England for borders
+    #"United Kingdom": ["England", "Scotland", "Wales", "N. Ireland"],
+    #"Palestine": ["West Bank", "Gaza"],
+    #"South Korea": ["South Korea", "Korean DMZ (south)"],
+    #"North Korea": ["North Korea", "Korean DMZ (north)"],
+    #"Syria": ["Syria", "UNDOF Zone"],
+    #"Iraq" : ["Iraq", "Iraqi Kurdistan"],
+    #"Somalia" : ["Somalia", "Somaliland", "Puntland"],
+    #"Belgium" : ["Walloon", "Brussels", "Flemish"],
+    #"Serbia" : ["Serbia", "Vojvodina"],
+    #"Bosnia and Herzegovina": ["Rep. Srpska", "Fed. of Bos. & Herz.", "Brcko District"],
+    #"Georgia": ["Georgia", "Adjara"]
+    "United Kingdom": "England", #######
+    "Bosnia and Herzegovina": "Fed. of Bos. & Herz.", ######
     "United States": "United States of America",
     "Antigua and Barbuda": "Antigua",
     "Bahamas": "Bahamas",
-    "Bosnia and Herzegovina": "Fed. of Bos. & Herz.",
     "Cape Verde": "Cabo Verde",
     "Central African Republic": "Central African Rep.",
     "Republic of the Congo": "Congo",
@@ -68,6 +79,13 @@ FOODGUESSR_TO_MAP = {
 def get_map_name(foodguessr_name):
     # 1. Check if we have a manual override/mapping
     if foodguessr_name in FOODGUESSR_TO_MAP:
+        if isinstance(FOODGUESSR_TO_MAP[foodguessr_name], list):
+            # If it's a list, we need to check which one exists in the map
+            for name in FOODGUESSR_TO_MAP[foodguessr_name]:
+                if name in world['NAME'].values:
+                    return name
+            # If none of the alternatives exist, just return the first one (or handle as needed)
+            return FOODGUESSR_TO_MAP[foodguessr_name][0]
         return FOODGUESSR_TO_MAP[foodguessr_name]
     
     # 2. Otherwise, assume the name is already correct
@@ -190,6 +208,13 @@ if __name__ == "__main__":
 
         ('South Korea', 'North Korea'),
         ('Iran', 'Azerbaijan'),
+        ('Syria', 'Israel'),
+        #('Palestine', 'Egypyt'),
+        ('United Kingdom', 'Ireland'),
+        ('Iraq', 'Turkey'),
+        ('Somalia', 'Djibouti'),
+        ('Serbia', 'Hungary'),
+        ('Bosnia and Herzegovina', 'Montenegro'),
     ]
 
     print(f"{'TEST CASE':<30} | {'RESULT'}")
@@ -203,9 +228,7 @@ if __name__ == "__main__":
         except Exception as e:
             print(f"{c1 + ' & ' + c2:<30} | ERROR: {e}")
 
+    #for country in ["Germany", "Russia", "India", "Indonesia", "Iran"]:
+    #    print(f"Bordering countries for '{country}':", bordering_countries(country))
 
-    print("\nBordering countries for 'Germany':", bordering_countries("Germany"))
-    print("Bordering countries for 'Russia':", bordering_countries("Russia"))
-    print("Bordering countries for 'India':", bordering_countries("India"))
-    print("Bordering countries for 'Indonesia':", bordering_countries("Indonesia"))
-    print("Bordering countries for 'Iran':", bordering_countries("Iran"))
+    
