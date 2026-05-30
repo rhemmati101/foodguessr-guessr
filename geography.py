@@ -1,5 +1,6 @@
 import geopandas as gpd
 import pycountry
+from geopy.distance import geodesic
 from scrape import COUNTRIES_AND_TERRITORIES
 
 url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_map_units.geojson"
@@ -124,30 +125,34 @@ def bordering_countries(name):
 
     return neighbors
 
-
 def get_country_distance(name_a, name_b):
     maps_a = get_map_namelist(name_a)
     maps_b = get_map_namelist(name_b)
-    
+
     res_a = [world[world['NAME'] == map_a] for map_a in maps_a]
     res_b = [world[world['NAME'] == map_b] for map_b in maps_b]
-    
+
     if any(res.empty for res in res_a) or any(res.empty for res in res_b):
         return None
-    
+
     dists_km = []
+
     for ra in res_a:
         for rb in res_b:
-            if not ra.empty and not rb.empty:
-                geom_a = ra.geometry.iloc[0]
-                geom_b = rb.geometry.iloc[0]
-                dist_degrees = geom_a.distance(geom_b)
-                dist_km = dist_degrees * 111
-                dists_km.append(dist_km)
+            geom_a = ra.geometry.iloc[0]
+            geom_b = rb.geometry.iloc[0]
 
-    min_dist_km = min(dists_km)
-    
-    return round(min_dist_km)
+            point_a = geom_a.representative_point()
+            point_b = geom_b.representative_point()
+
+            dist_km = geodesic(
+                (point_a.y, point_a.x),
+                (point_b.y, point_b.x)
+            ).km
+
+            dists_km.append(dist_km)
+
+    return round(min(dists_km))
 
 if __name__ == "__main__":
     test_cases = [
