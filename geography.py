@@ -86,6 +86,16 @@ def get_map_namelist(foodguessr_name):
     # 2. Otherwise, assume the name is already correct
     return [foodguessr_name]
 
+def get_foodguessr_name(map_name):
+    for fg_name, map_list in FOODGUESSR_TO_MAP.items():
+        # Handle both list and string values from your dict
+        if isinstance(map_list, list):
+            if map_name in map_list:
+                return fg_name
+        elif map_name == map_list:
+            return fg_name
+    return map_name
+
 def check_border(name_a, name_b):
     # Convert both names to map-friendly names
     maps_a = get_map_namelist(name_a)
@@ -98,43 +108,46 @@ def check_border(name_a, name_b):
     return any(geom_a.touches(geom_b) for geom_a in geoms_a for geom_b in geoms_b)
 
 # returns Foodguessr version of names
-####### TODO
 def bordering_countries(name):
     map_name = get_map_namelist(name)
-    country_geom = world[world['NAME'] == map_name].geometry.iloc[0]
+    country_geoms = [world[world['NAME'] == map].geometry.iloc[0] for map in map_name]
     
     neighbors = []
     for idx, row in world.iterrows():
-        if row['NAME'] != map_name and country_geom.touches(row.geometry):
+        if row['NAME'] != map_name and any(geom.touches(row.geometry) for geom in country_geoms):
             neighbors.append(row['NAME'])
     
     # map back to Foodguessr names
-    reverse_map = {v: k for k, v in FOODGUESSR_TO_MAP.items()}
-    neighbors = [reverse_map.get(n, n) for n in neighbors]
+    neighbors = list(set([get_foodguessr_name(n) for n in neighbors]))
     neighbors = [n for n in neighbors if n in COUNTRIES_AND_TERRITORIES]
+    neighbors = [n for n in neighbors if n != name]
 
     return neighbors
 
+
 def get_country_distance(name_a, name_b):
-    map_a = get_map_name(name_a)
-    map_b = get_map_name(name_b)
+    maps_a = get_map_namelist(name_a)
+    maps_b = get_map_namelist(name_b)
     
-    res_a = world[world['NAME'] == map_a]
-    res_b = world[world['NAME'] == map_b]
+    res_a = [world[world['NAME'] == map_a] for map_a in maps_a]
+    res_b = [world[world['NAME'] == map_b] for map_b in maps_b]
     
-    if res_a.empty or res_b.empty:
+    if any(res.empty for res in res_a) or any(res.empty for res in res_b):
         return None
-
-    geom_a = res_a.geometry.iloc[0]
-    geom_b = res_b.geometry.iloc[0]
-
-    # Calculate distance in degrees
-    dist_degrees = geom_a.distance(geom_b)
     
-    # Simple approximation: 1 degree ≈ 111 km
-    dist_km = dist_degrees * 111
+    dists_km = []
+    for ra in res_a:
+        for rb in res_b:
+            if not ra.empty and not rb.empty:
+                geom_a = ra.geometry.iloc[0]
+                geom_b = rb.geometry.iloc[0]
+                dist_degrees = geom_a.distance(geom_b)
+                dist_km = dist_degrees * 111
+                dists_km.append(dist_km)
+
+    min_dist_km = min(dists_km)
     
-    return round(dist_km)
+    return round(min_dist_km)
 
 if __name__ == "__main__":
     test_cases = [
@@ -219,12 +232,12 @@ if __name__ == "__main__":
     for c1, c2 in test_cases:
         try:
             result = check_border(c1, c2)
-            #dist = get_country_distance(c1, c2)
-            print(f"{c1 + ' & ' + c2:<30} | {result} (km)")
+            dist = get_country_distance(c1, c2)
+            print(f"{c1 + ' & ' + c2:<30} | {result} ({dist} km)")
         except Exception as e:
             print(f"{c1 + ' & ' + c2:<30} | ERROR: {e}")
 
-    #for country in ["Germany", "Russia", "India", "Indonesia", "Iran"]:
-    #    print(f"Bordering countries for '{country}':", bordering_countries(country))
+    for country in ["Germany", "Russia", "India", "Indonesia", "Iran", "Palestine", "Iraq", "Somalia", "Serbia", "Bosnia and Herzegovina"]:
+        print(f"Bordering countries for '{country}':", bordering_countries(country))
 
     
