@@ -1,6 +1,7 @@
 import geopandas as gpd
 import pycountry
 from geopy.distance import geodesic
+import numpy as np
 from scrape import COUNTRIES_AND_TERRITORIES
 
 url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_map_units.geojson"
@@ -153,6 +154,42 @@ def get_country_distance(name_a, name_b):
             dists_km.append(dist_km)
 
     return round(min(dists_km))
+
+TEMP_THRESHOLDS = {"Very Hot": 500, "Hot": 1250, "Warm": 3500, "Cool": 5000, "Cold": 8000}
+
+def temperature_label(name_a, name_b):
+    dist = get_country_distance(name_a, name_b)
+    if dist is None:
+        return "Unknown"
+    elif dist < TEMP_THRESHOLDS["Very Hot"]:
+        return "Very Hot"
+    elif dist < TEMP_THRESHOLDS["Hot"]:
+        return "Hot"
+    elif dist < TEMP_THRESHOLDS["Warm"]:
+        return "Warm"
+    elif dist < TEMP_THRESHOLDS["Cool"]:
+        return "Cool"
+    elif dist < TEMP_THRESHOLDS["Cold"]:
+        return "Cold"
+    else:
+        return "Ice Cold"
+    
+# conservative thresholds for filtering out predictions
+def temp_to_thresholds(label):
+    if label == "Very Hot":
+        return [0, TEMP_THRESHOLDS["Hot"]]
+    elif label == "Hot":
+        return [0, TEMP_THRESHOLDS["Warm"]]
+    elif label == "Warm":
+        return [TEMP_THRESHOLDS["Very Hot"], TEMP_THRESHOLDS["Cool"]]
+    elif label == "Cool":
+        return [TEMP_THRESHOLDS["Hot"], TEMP_THRESHOLDS["Cold"]]
+    elif label == "Cold":
+        return [TEMP_THRESHOLDS["Warm"], np.inf]
+    elif label == "Ice Cold":
+        return [TEMP_THRESHOLDS["Cool"], np.inf]
+    else:
+        raise ValueError(f"Invalid temperature label: {label}")
 
 if __name__ == "__main__":
     test_cases = [
