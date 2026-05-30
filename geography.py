@@ -37,6 +37,7 @@ FOODGUESSR_TO_MAP = {
     "Serbia" : ["Serbia", "Vojvodina"],
     "Bosnia and Herzegovina": ["Rep. Srpska", "Fed. of Bos. & Herz.", "Brcko District"],
     "Georgia": ["Georgia", "Adjara"],
+    "South Sudan" : "S. Sudan",
     "United States": "United States of America",
     "Antigua and Barbuda": "Antigua",
     "Bahamas": "Bahamas",
@@ -69,6 +70,7 @@ FOODGUESSR_TO_MAP = {
     "Saint Martin": "St-Martin",
     "Saint Pierre and Miquelon": "St. Pierre and Miquelon",
     "Saint Helena, Ascension and Tristan da Cunha": "Saint Helena",
+    "Saint Kitts and Nevis": "St. Kitts and Nevis",
     "Turks and Caicos Islands": "Turks and Caicos Is.",
     "Virgin Islands": "U.S. Virgin Is.",
     "Wallis and Futuna": "Wallis and Futuna Is.",
@@ -134,7 +136,7 @@ def get_country_distance(name_a, name_b):
     res_b = [world[world['NAME'] == map_b] for map_b in maps_b]
 
     if any(res.empty for res in res_a) or any(res.empty for res in res_b):
-        return None
+        raise ValueError(f"Could not find map data for '{name_a}' or '{name_b}'")
 
     dists_km = []
 
@@ -155,13 +157,25 @@ def get_country_distance(name_a, name_b):
 
     return round(min(dists_km))
 
+def get_guess_distance(guess_name, correct_names):
+    guess_maps = get_map_namelist(guess_name)
+    correct_maps = []
+    for name in correct_names:
+        correct_maps.extend(get_map_namelist(name))
+
+    dists = []
+    for gm in guess_maps:
+        for cm in correct_maps:
+            dist = get_country_distance(gm, cm)
+            if dist is not None:
+                dists.append(dist)
+
+    return round(min(dists)) if dists else None
+
 TEMP_THRESHOLDS = {"Very Hot": 500, "Hot": 1250, "Warm": 3500, "Cool": 5000, "Cold": 8000}
 
-def temperature_label(name_a, name_b):
-    dist = get_country_distance(name_a, name_b)
-    if dist is None:
-        return "Unknown"
-    elif dist < TEMP_THRESHOLDS["Very Hot"]:
+def temperature_label_from_distance(dist):
+    if dist < TEMP_THRESHOLDS["Very Hot"]:
         return "Very Hot"
     elif dist < TEMP_THRESHOLDS["Hot"]:
         return "Hot"
@@ -173,6 +187,12 @@ def temperature_label(name_a, name_b):
         return "Cold"
     else:
         return "Ice Cold"
+
+def temperature_label(name_a, name_b):
+    dist = get_country_distance(name_a, name_b)
+    if dist is None:
+        raise ValueError(f"Could not calculate distance between '{name_a}' and '{name_b}'")
+    return temperature_label_from_distance(dist)
     
 # conservative thresholds for filtering out predictions
 def temp_to_thresholds(label):
@@ -190,6 +210,12 @@ def temp_to_thresholds(label):
         return [TEMP_THRESHOLDS["Cool"], np.inf]
     else:
         raise ValueError(f"Invalid temperature label: {label}")
+
+def get_guess_temperature(guess_name, correct_names):
+    dist = get_guess_distance(guess_name, correct_names)
+    if dist is None:
+        return "Unknown"
+    return temperature_label_from_distance(dist)
 
 if __name__ == "__main__":
     test_cases = [
