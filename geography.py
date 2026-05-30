@@ -24,19 +24,17 @@ world = repair_map_data(world)
 
 FOODGUESSR_TO_MAP = {
     # Standard Countries
-    #"United Kingdom": ["England", "Scotland", "Wales", "N. Ireland"],
-    #"Palestine": ["West Bank", "Gaza"],
-    #"South Korea": ["South Korea", "Korean DMZ (south)"],
-    #"North Korea": ["North Korea", "Korean DMZ (north)"],
-    #"Syria": ["Syria", "UNDOF Zone"],
-    #"Iraq" : ["Iraq", "Iraqi Kurdistan"],
-    #"Somalia" : ["Somalia", "Somaliland", "Puntland"],
-    #"Belgium" : ["Walloon", "Brussels", "Flemish"],
-    #"Serbia" : ["Serbia", "Vojvodina"],
-    #"Bosnia and Herzegovina": ["Rep. Srpska", "Fed. of Bos. & Herz.", "Brcko District"],
-    #"Georgia": ["Georgia", "Adjara"]
-    "United Kingdom": "England", #######
-    "Bosnia and Herzegovina": "Fed. of Bos. & Herz.", ######
+    "United Kingdom": ["England", "Scotland", "Wales", "N. Ireland"],
+    "Palestine": ["West Bank", "Gaza"],
+    "South Korea": ["South Korea", "Korean DMZ (south)"],
+    "North Korea": ["North Korea", "Korean DMZ (north)"],
+    "Syria": ["Syria", "UNDOF Zone"],
+    "Iraq" : ["Iraq", "Iraqi Kurdistan"],
+    "Somalia" : ["Somalia", "Somaliland", "Puntland"],
+    "Belgium" : ["Walloon", "Brussels", "Flemish"],
+    "Serbia" : ["Serbia", "Vojvodina"],
+    "Bosnia and Herzegovina": ["Rep. Srpska", "Fed. of Bos. & Herz.", "Brcko District"],
+    "Georgia": ["Georgia", "Adjara"],
     "United States": "United States of America",
     "Antigua and Barbuda": "Antigua",
     "Bahamas": "Bahamas",
@@ -76,35 +74,33 @@ FOODGUESSR_TO_MAP = {
     "Åland Islands": "Åland"
 }
 
-def get_map_name(foodguessr_name):
+# return a list of names (or single name)
+def get_map_namelist(foodguessr_name):
     # 1. Check if we have a manual override/mapping
     if foodguessr_name in FOODGUESSR_TO_MAP:
         if isinstance(FOODGUESSR_TO_MAP[foodguessr_name], list):
-            # If it's a list, we need to check which one exists in the map
-            for name in FOODGUESSR_TO_MAP[foodguessr_name]:
-                if name in world['NAME'].values:
-                    return name
-            # If none of the alternatives exist, just return the first one (or handle as needed)
-            return FOODGUESSR_TO_MAP[foodguessr_name][0]
-        return FOODGUESSR_TO_MAP[foodguessr_name]
-    
+            return FOODGUESSR_TO_MAP[foodguessr_name]
+        else:
+            return [FOODGUESSR_TO_MAP[foodguessr_name]]
+
     # 2. Otherwise, assume the name is already correct
-    return foodguessr_name
+    return [foodguessr_name]
 
 def check_border(name_a, name_b):
     # Convert both names to map-friendly names
-    map_a = get_map_name(name_a)
-    map_b = get_map_name(name_b)
+    maps_a = get_map_namelist(name_a)
+    maps_b = get_map_namelist(name_b)
 
     # Now look them up in your 'world' dataframe
-    geom_a = world[world['NAME'] == map_a].geometry.iloc[0]
-    geom_b = world[world['NAME'] == map_b].geometry.iloc[0]
+    geoms_a = [world[world['NAME'] == map].geometry.iloc[0] for map in maps_a]
+    geoms_b = [world[world['NAME'] == map].geometry.iloc[0] for map in maps_b]
 
-    return geom_a.touches(geom_b)
+    return any(geom_a.touches(geom_b) for geom_a in geoms_a for geom_b in geoms_b)
 
 # returns Foodguessr version of names
+####### TODO
 def bordering_countries(name):
-    map_name = get_map_name(name)
+    map_name = get_map_namelist(name)
     country_geom = world[world['NAME'] == map_name].geometry.iloc[0]
     
     neighbors = []
@@ -206,10 +202,10 @@ if __name__ == "__main__":
         ("Guernsey", "France"),
         ("Gibraltar", "Spain"),
 
+        # Countries with weirder borders...should be True when accounting for all territories
         ('South Korea', 'North Korea'),
-        ('Iran', 'Azerbaijan'),
         ('Syria', 'Israel'),
-        #('Palestine', 'Egypyt'),
+        ('Palestine', 'Egypt'),
         ('United Kingdom', 'Ireland'),
         ('Iraq', 'Turkey'),
         ('Somalia', 'Djibouti'),
@@ -223,8 +219,8 @@ if __name__ == "__main__":
     for c1, c2 in test_cases:
         try:
             result = check_border(c1, c2)
-            dist = get_country_distance(c1, c2)
-            print(f"{c1 + ' & ' + c2:<30} | {result} ({dist} km)")
+            #dist = get_country_distance(c1, c2)
+            print(f"{c1 + ' & ' + c2:<30} | {result} (km)")
         except Exception as e:
             print(f"{c1 + ' & ' + c2:<30} | ERROR: {e}")
 
