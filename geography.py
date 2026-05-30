@@ -256,7 +256,7 @@ def get_representative_coordinate(country_name):
     # Shapely Point coordinates are accessed via x (Longitude) and y (Latitude)
     return rep_point.y, rep_point.x
 
-def get_direction_to_target(guess, correct_countries):
+def get_guess_direction(guess, correct_countries):
     """
     Accepts a guess and a list of correct countries. 
     Returns the bearing (in degrees) from the guess to the first correct country.
@@ -391,7 +391,7 @@ if __name__ == "__main__":
         {"guess": "Ecuador", "targets": ["Kenya"], "desc": "Ecuador -> Kenya (Equatorial)"},
         {"guess": "New Zealand", "targets": ["Iceland"], "desc": "New Zealand -> Iceland (Antipodes)"},
 
-        {"guess": "Brazil", "targets": ["Japan"], "desc": "Brazil -> Japan (Crossing the dateline)"},
+        {"guess": "Brazil", "targets": ["Japan", "China"], "desc": "Brazil -> Japan (Crossing the dateline)"},
     ]
 
     print(f"{'TEST CASE':<40} | {'BEARING':<10} | {'DISTANCE':<12} | {'COORDS'}")
@@ -404,7 +404,7 @@ if __name__ == "__main__":
             t_lat, t_lon = get_representative_coordinate(case['targets'][0])
             
             # 2. Calculate Bearing 
-            bearing = get_direction_to_target(case['guess'], case['targets'])
+            bearing = get_guess_direction(case['guess'], case['targets'])
             
             # 3. Calculate Distance for context
             dist = geodesic((g_lat, g_lon), (t_lat, t_lon)).km
