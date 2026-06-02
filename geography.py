@@ -55,7 +55,6 @@ FOODGUESSR_TO_MAP = {
     "Saint Vincent and the Grenadines": "St. Vin. and Gren.",
     "São Tomé and Príncipe": "São Tomé and Principe",
     "Vatican City": "Vatican",
-    "Czech Republic": "Czechia",
 
     # Territories & Dependencies
     "British Virgin Islands": "British Virgin Is.",
@@ -259,12 +258,13 @@ def get_representative_coordinate(country_name):
 def get_guess_direction(guess, correct_countries):
     """
     Accepts a guess and a list of correct countries. 
-    Returns the bearing (in degrees) from the guess to the first correct country.
+    Returns the bearing (in degrees) from the guess to the closest correct country.
     """
     if not correct_countries:
         raise ValueError("The list of correct countries is missing or empty.")
         
-    target_country = correct_countries[0]
+    # Find the closest country by comparing distances from the guess
+    target_country = min(correct_countries, key=lambda c: get_country_distance(guess, c))
     
     # Get coordinates
     guess_lat, guess_lon = get_representative_coordinate(guess)
@@ -391,7 +391,7 @@ if __name__ == "__main__":
         {"guess": "Ecuador", "targets": ["Kenya"], "desc": "Ecuador -> Kenya (Equatorial)"},
         {"guess": "New Zealand", "targets": ["Iceland"], "desc": "New Zealand -> Iceland (Antipodes)"},
 
-        {"guess": "Brazil", "targets": ["Japan", "China"], "desc": "Brazil -> Japan (Crossing the dateline)"},
+        {"guess": "Brazil", "targets": ["Japan", "China", "Venezuela"], "desc": "Brazil -> Japan (Crossing the dateline)"},
     ]
 
     print(f"{'TEST CASE':<40} | {'BEARING':<10} | {'DISTANCE':<12} | {'COORDS'}")
