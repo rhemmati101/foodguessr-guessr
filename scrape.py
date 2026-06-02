@@ -160,7 +160,7 @@ if __name__ == "__main__":
         actions.send_keys(Keys.ENTER)
         actions.perform()
 
-        time.sleep(0.2)
+        time.sleep(0.6)
         i += 1
 
     print(f"Exited loop after {i-1} attempts.")
