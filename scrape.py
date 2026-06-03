@@ -139,7 +139,7 @@ if __name__ == "__main__":
     driver.get(website)
 
     # Wait for the page to load
-    time.sleep(np.random.uniform(1.5, 3))
+    time.sleep(np.random.uniform(2.5, 4))
 
     #try to fail the game, then extract dish name and countries of origin
     i = 1
@@ -163,12 +163,12 @@ if __name__ == "__main__":
         time.sleep(0.6)
         i += 1
 
-    print(f"Exited loop after {i-1} attempts.")
+    #print(f"Exited loop after {i-1} attempts.")
 
-    time.sleep(1.5)  # Wait a moment for the page to update
+    time.sleep(2)  # Wait a moment for the page to update
 
     page_text = driver.find_element(By.TAG_NAME, 'body').text
-    print(page_text.partition("Pass")[0])
+    #print(page_text.partition("Pass")[0])
 
     # Extract dish name, countries, and alternate names
     dish_name, countries, alternate_names = extract_dish_and_countries(page_text)
@@ -184,7 +184,7 @@ if __name__ == "__main__":
         print(f"Error extractingingredients: {e}")
 
     # Append extracted data to data.csv
-    csv_path = Path(__file__).parent / "data.csv"
+    csv_path = Path(__file__).parent / "data/data.csv"
     if not csv_path.exists():
         with csv_path.open("w", newline="", encoding="utf-8") as csvfile:
             writer = csv.writer(csvfile)
