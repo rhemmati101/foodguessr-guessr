@@ -174,7 +174,8 @@ if __name__ == "__main__":
     dish_name, countries, alternate_names = extract_dish_and_countries(page_text)
     print(f"Dish Name: {dish_name}")
     print(f"Countries of Origin: {countries}")
-    print(f"Alternate Names: {alternate_names}")
+    if alternate_names:
+        print(f"Alternate Names: {alternate_names}")
 
     try:
         ingredients_text = extract_ingredients(page_text)

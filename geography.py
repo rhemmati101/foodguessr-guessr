@@ -199,20 +199,20 @@ def temperature_label(name_a, name_b):
         raise ValueError(f"Could not calculate distance between '{name_a}' and '{name_b}'")
     return temperature_label_from_distance(dist)
     
-# conservative thresholds for filtering out predictions
+# mildly conservative thresholds for filtering out predictions
 def temp_to_thresholds(label):
     if label == "Very Hot":
-        return [0, TEMP_THRESHOLDS["Hot"]]
+        return [0, np.average([TEMP_THRESHOLDS["Very Hot"], TEMP_THRESHOLDS["Hot"]])]
     elif label == "Hot":
-        return [0, TEMP_THRESHOLDS["Warm"]]
+        return [np.average([0, TEMP_THRESHOLDS["Very Hot"]]), np.average([TEMP_THRESHOLDS["Hot"], TEMP_THRESHOLDS["Warm"]])]
     elif label == "Warm":
-        return [TEMP_THRESHOLDS["Very Hot"], TEMP_THRESHOLDS["Cool"]]
+        return [np.average([TEMP_THRESHOLDS["Very Hot"], TEMP_THRESHOLDS["Hot"]]), np.average([TEMP_THRESHOLDS["Warm"], TEMP_THRESHOLDS["Cool"]])]
     elif label == "Cool":
-        return [TEMP_THRESHOLDS["Hot"], TEMP_THRESHOLDS["Cold"]]
+        return [np.average([TEMP_THRESHOLDS["Hot"], TEMP_THRESHOLDS["Warm"]]), np.average([TEMP_THRESHOLDS["Cool"], TEMP_THRESHOLDS["Cold"]])]
     elif label == "Cold":
-        return [TEMP_THRESHOLDS["Warm"], np.inf]
+        return [np.average([TEMP_THRESHOLDS["Warm"], TEMP_THRESHOLDS["Cool"]]), TEMP_THRESHOLDS["Cold"] + 2000]
     elif label == "Ice Cold":
-        return [TEMP_THRESHOLDS["Cool"], np.inf]
+        return [np.average([TEMP_THRESHOLDS["Cool"], TEMP_THRESHOLDS["Cold"]]), np.inf]
     else:
         raise ValueError(f"Invalid temperature label: {label}")
 
