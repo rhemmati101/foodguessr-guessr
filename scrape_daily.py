@@ -139,16 +139,29 @@ if not csv_path.exists():
         writer.writerow(["date", "dish_name", "countries_of_origin", "ingredients", "comm_average_score", "top_guess", "percent_agreement"])
 
 
+now = datetime.now()
+
+if now.hour < 17:  # before 5:00 PM
+    target_date = now - timedelta(days=1)
+else:
+    target_date = now
+
+current_date = target_date.strftime("%-m/%-d/%Y")
+
+# replace existing rows for current date if it exists
+existing_rows = []
+if csv_path.exists():
+    with csv_path.open("r", encoding="utf-8") as f_read:
+        reader = csv.reader(f_read)
+        # Assumes the date is the very first column (index 0)
+        existing_rows = [row for row in reader if row and row[0] != current_date]
+
+with csv_path.open("w", newline="", encoding="utf-8") as csvfile_w:
+    writer_w = csv.writer(csvfile_w)
+    writer_w.writerows(existing_rows)
+
+
 with csv_path.open("a", newline="", encoding="utf-8") as csvfile:
-    now = datetime.now()
-
-    if now.hour < 17:  # before 5:00 PM
-        target_date = now - timedelta(days=1)
-    else:
-        target_date = now
-
-    current_date = target_date.strftime("%-m/%-d/%Y")
-
     writer = csv.writer(csvfile)
     for info in info_list:
         name, countries_oo, ingredients, alt_names, comm_average_score, top_guess, percent_agreement = info['dish_name'], info['countries_of_origin'], info['ingredients'], info['alternate_names'], info['comm_average_score'], info['top_guess'], info['percent_agreement']
