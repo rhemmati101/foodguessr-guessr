@@ -1,4 +1,4 @@
-date,first_tries,scores,border_scores,geodist_scores,geoall_scores
+date,first_try_guesses,scores,border_scores,geodist_scores,geoall_scores
 05/01/2026,1,9500,9500,13500,13500
 05/02/2026,1,9500,9500,12500,12500
 05/03/2026,2,10000,10000,14000,14500
