@@ -98,6 +98,42 @@ date,dish_name,countries_of_origin,ingredients,comm_average_score,top_guess,perc
 6/2/2026,Pinangat Na Isda,Philippines,"Fish, tomatoes, onions, kamias, salt, pepper, water, ginger, tamarind, (optional: green chilies, eggplant, mustard leaves)",3540,Philippines,14
 6/2/2026,Kefalotyri,Greece; Cyprus,"Sheep's milk, goat's milk, rennet, salt, olive oil (optional).",3986,Italy,36
 6/2/2026,Khanom Tan,Thailand,"Toddy palm sugar, rice flour, coconut milk, shredded coconut, baking soda, salt, pandan leaves (optional).",3794,Indonesia,24
-6/3/2026,Stuffed piquillo Pepper,Spain,"Peppers, olive oil, garlic, onions, salt, (optional: black pepper, sugar, vinegar, bread crumbs, cheese, seafood, meats, rice).",4313,Spain,41
-6/3/2026,Borzguène,Tunisia,"Semolina, lamb or beef, onions, chickpeas, olive oil, cumin, coriander, caraway, tomato paste, harissa, garlic, salt, pepper, water, (optional: carrots, potatoes, turnips, saffron).",2609,Turkey,20
-6/3/2026,Mulga Apple,Australia,Mulga apples,3850,Australia,27
+6/3/2026,Stuffed piquillo Pepper,Spain,"Peppers, olive oil, garlic, onions, salt, (optional: black pepper, sugar, vinegar, bread crumbs, cheese, seafood, meats, rice).",4306,Spain,39
+6/3/2026,Borzguène,Tunisia,"Semolina, lamb or beef, onions, chickpeas, olive oil, cumin, coriander, caraway, tomato paste, harissa, garlic, salt, pepper, water, (optional: carrots, potatoes, turnips, saffron).",2630,Turkey,15
+6/3/2026,Mulga Apple,Australia,Mulga apples,3698,Australia,23
+6/4/2026,Twisties,Australia,"Corn meal, vegetable oil, whey powder, cheese powder, salt, monosodium glutamate, sugar, butterfat, natural flavors, onion powder, garlic powder, paprika, color (optional), flavor enhancers (optional).",3867,United States,83
+6/4/2026,Pig's Organ Soup,Malaysia; Singapore,"Pork liver, pork heart, pork intestines, pork stomach, pork meat, pork bones, meatballs, minced garlic, lettuce, parsley onion leaves, white pepper",3265,China,39
+6/4/2026,Mantecada,Spain,"flour, eggs, sugar, lard, lemon zest, cinnamon (optional), sesame seeds (optional)",3962,United Kingdom,28
+6/5/2026,Sangrita,Mexico,"Orange juice, lime juice, grenadine, chili powder, hot sauce (optional), tomato juice (optional), salt (optional), onion (optional), pomegranate juice (optional), jalapeño (optional)",4689,Mexico,69
+6/5/2026,Parker House Roll,United States,"Flour, milk, sugar, butter, eggs, yeast, salt, (optional) honey.",3952,United Kingdom,19
+6/5/2026,John Collins,United Kingdom,"Gin, lemon juice, sugar syrup, soda water, ice, lemon slice (optional), maraschino cherry (optional)",4348,United Kingdom,31
+6/6/2026,Feteer,Egypt,"Flour, water, salt, ghee, butter, sugar, milk, honey (optional), cream (optional), cheese (optional), meat (optional), vegetables (optional), fruits (optional), nuts (optional)",3233,India,43
+6/6/2026,Laal Maas,India,"Mutton, yogurt, red chili paste, garlic, ginger, onions, mustard oil, coriander powder, cumin seeds, turmeric, cloves, green cardamom, black pepper, ghee, bay leaf, salt, lemon juice, coriander leaves, dried red chilies, (optional: cinnamon stick, asafoetida, fennel seeds, lime juice).",4624,India,70
+6/6/2026,Amandine,Romania,"Eggs, sugar, flour, cocoa powder, milk, butter, chocolate, heavy cream, almond extract, vanilla extract, almonds, rum (optional), powdered sugar (optional).",2793,France,53
+6/7/2026,Maccheroni alla pastora,Italy,"Penne rigate, cream, peas, champignon mushrooms, cooked ham, grated Parmesan cheese",4916,Italy,90
+6/7/2026,Fatoot,Yemen,"Bread, eggs, tomatoes, onions, garlic, oil, salt, pepper, cumin, turmeric, chili (optional), coriander (optional).",2117,India,24
+6/7/2026,Pisco Sour,Peru; Chile,"Pisco, lime juice, simple syrup, egg white, angostura bitters (optional), ice",3450,Peru,16
+6/8/2026,Boli,Nigeria,"Plantains, palm oil, groundnut, salt, pepper, fish (optional), tomato (optional), onion (optional), spices (optional).",3098,Jamaica,19
+6/8/2026,Mesclun,France,"Leafy greens, chicory, arugula, endive, radicchio, dandelion greens, lamb's lettuce, frisée (optional), herbs (optional)",4407,France,35
+6/8/2026,Konpeitō,Japan,"Sugar, Water, Food coloring (optional), Flavoring (optional).",4388,Japan,47
+6/9/2026,Xis,Brazil,"Ground beef, cheese, lettuce, tomato, mayonnaise, corn, peas, bacon, sausage, fried egg, ham, potato sticks, ketchup (optional), mustard (optional), pickles (optional), mayonnaise-based sauces (optional).",3481,United States,54
+6/9/2026,Sanbeiji,China; Taiwan,"Chicken, soy sauce, rice wine, sesame oil, ginger, garlic, sugar, basil leaves (optional), green onions (optional), chili peppers (optional).",4522,China,51
+6/9/2026,Gilgeori Toast,South Korea,"Bread, eggs, cabbage, carrot, ham, cheese, sugar, ketchup (optional), mayonnaise (optional), mustard (optional).",3064,United States,19
+6/10/2026,Kalduny,Belarus; Poland; Lithuania,"Flour, water, eggs, salt, ground meat, onions, butter, pepper, (optional mushrooms), (optional garlic), (optional sour cream).",3970,Poland,28
+6/10/2026,Batagor,Indonesia,"Tofu, fish paste, tapioca flour, shallots, garlic, pepper, salt, water, wonton wrappers, peanut sauce, sweet soy sauce, lime juice, fried shallots (optional), sliced cucumber (optional), sambal (optional), kecap manis (optional).",3820,Thailand,26
+6/10/2026,Pastillas,Philippines,"Milk, sugar, condensed milk (optional), powdered milk (optional), butter (optional), lemon zest (optional), vanilla extract (optional), granulated sugar for coating (optional)",3645,Philippines,28
+6/11/2026,Tekwan,Indonesia,"Fish paste, tapioca flour, garlic, shallots, white pepper, celery, mushroom, jicama, bamboo shoots, shrimp, sugar, salt, water, spring onions (optional), crispy fried shallots (optional), lime juice (optional), rice noodles (optional).",3710,Japan,23
+6/11/2026,Batik Cake,Brunei; Malaysia,"Marie biscuits, condensed milk, cocoa powder, butter, eggs, Milo or other malted chocolate drinks (optional), sugar (optional), vanilla extract (optional).",2471,Australia,20
+6/11/2026,Muskazine,Germany,"Almonds, sugar, flour, eggs, cinnamon, cloves, nutmeg, cardamom, (optional) candied citrus peel or ginger.",3751,Germany,17
+6/12/2026,Mangalorean Chicken Sukka,India,"Chicken, grated coconut, onions, garlic, ginger, cumin seeds, coriander seeds, fennel seeds, red chilies, curry leaves, black pepper, turmeric powder, oil, salt, tamarind, (optional: green chilies, mustard seeds, cinnamon, cloves, coriander leaves)",4604,India,65
+6/12/2026,Bedfordshire Clanger,United Kingdom,"Suet pastry, plain flour, water, salt, baking powder, beef, pork, potatoes, onions, apples, sugar, butter, sage, black pepper, (optional) thyme, (optional) parsley, (optional) carrots, (optional) peas.",4521,United Kingdom,54
+6/12/2026,Şöbiyet,Turkey,"Phyllo dough, unsalted butter, pistachios, semolina, sugar, milk, water, lemon juice, rose water (optional).",4315,Turkey,36
+6/13/2026,Pain Tabouna,Tunisia,"Flour, water, yeast, olive oil, sugar, salt, semolina (optional), nigella seeds (optional), anise seeds (optional).",2548,India,20
+6/13/2026,Dodger Dog,United States,"hot dog, hot dog bun, mustard (optional), ketchup (optional), relish (optional), onions (optional), cheese (optional).",4927,United States,91
+6/13/2026,Créponné,Algeria,"Lemon, sugar, eggs, milk, flour, butter, vanilla extract, (optional) orange zest, (optional) almond extract.",2758,Italy,56
+6/14/2026,Senbei,Japan,"Rice flour, soy sauce, sugar (optional), mirin (optional), seaweed (optional), sesame seeds (optional), shrimp or fish flavoring (optional).",4742,Japan,72
+6/14/2026,Cabrales Cheese,Spain,"Cow's milk, goat's milk, sheep's milk, penicillium mold, salt, water (optional).",4126,France,65
+6/14/2026,Torta Barozzi,Italy,"Dark chocolate, butter, eggs, sugar, ground almonds, ground peanuts, vanilla extract, coffee, rum (optional).",4089,Italy,25
+6/15/2026,Beirute,Brazil,"Pita bread, beef or chicken, lettuce, tomato, cheese, egg, mayonnaise, mustard, (optional) bacon.",3131,United States,32
+6/15/2026,Lángos,Hungary,"Flour, yeast, salt, water, milk, sour cream (optional), garlic (optional), cheese (optional), butter (optional), oil, potatoes (optional).",3294,Italy,15
+6/15/2026,Tarte Tatin,France,"Apples, sugar, butter, puff pastry, lemon juice, cinnamon (optional), vanilla extract (optional), nutmeg (optional).",4534,France,52
