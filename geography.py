@@ -27,7 +27,6 @@ def repair_map_data(df):
 world = repair_map_data(world)
 
 FOODGUESSR_TO_MAP = {
-    # Standard Countries
     "United Kingdom": ["England", "Scotland", "Wales", "N. Ireland"],
     "Palestine": ["West Bank", "Gaza"],
     "South Korea": ["South Korea", "Korean DMZ (south)"],
@@ -55,8 +54,7 @@ FOODGUESSR_TO_MAP = {
     "Saint Vincent and the Grenadines": "St. Vin. and Gren.",
     "São Tomé and Príncipe": "São Tomé and Principe",
     "Vatican City": "Vatican",
-
-    # Territories & Dependencies
+    "Solomon Islands": "Solomon Is.",
     "British Virgin Islands": "British Virgin Is.",
     "Cayman Islands": "Cayman Is.",
     "Christmas Island": "Christmas I.",
@@ -414,3 +412,11 @@ if __name__ == "__main__":
             
         except Exception as e:
             print(f"{case['desc']:<40} | ERROR: {str(e)}")
+
+    for country in COUNTRIES_AND_TERRITORIES:
+        try:
+            coords = get_representative_coordinate(country)
+        except Exception as e:
+            print(f"Error fetching coordinates for '{country}': {e}")
+
+    
