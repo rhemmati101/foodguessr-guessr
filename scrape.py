@@ -37,7 +37,7 @@ COUNTRIES_AND_TERRITORIES = {
         "United States", "Uruguay", "Uzbekistan", "Vanuatu", "Vatican City", "Venezuela", "Vietnam", 
         "Yemen", "Zambia", "Zimbabwe",
         "Hong Kong", "Macau", "Puerto Rico", "Greenland", "Faroe Islands", "French Guiana", "Gibraltar",
-        "Isle of Man", "Jersey", "Guernsey", "Aruba", "Curaçao", "Sint Maarten", "Bonaire", "Saba", "Saint Barthélemy",
+        "Isle of Man", "Jersey", "Guernsey", "Aruba", "Curaçao", "Sint Maarten", "Saint Barthélemy",
         "Saint Martin", "Wallis and Futuna", "Western Sahara", "Kosovo", "Antigua and Barbuda", 
         "Saint Helena, Ascension and Tristan da Cunha", "Cook Islands", "Niue", "Tokelau", "Åland Islands", "Ivory Coast",
         "French Southern and Antarctic Lands", "Réunion", "Mayotte", "Martinique", "Saint Pierre and Miquelon",
