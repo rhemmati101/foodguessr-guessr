@@ -38,6 +38,7 @@ FOODGUESSR_TO_MAP = {
     "Serbia" : ["Serbia", "Vojvodina"],
     "Bosnia and Herzegovina": ["Rep. Srpska", "Fed. of Bos. & Herz.", "Brcko District"],
     "Georgia": ["Georgia", "Adjara"],
+    "Svalbard and Jan Mayen": ["Svalbard Is.", "Jan Mayen I."],
     "South Sudan" : "S. Sudan",
     "United States": "United States of America",
     "Antigua and Barbuda": "Antigua",
@@ -74,7 +75,9 @@ FOODGUESSR_TO_MAP = {
     "Virgin Islands": "U.S. Virgin Is.",
     "Wallis and Futuna": "Wallis and Futuna Is.",
     "Western Sahara": "W. Sahara",
-    "Åland Islands": "Åland"
+    "Åland Islands": "Åland",
+    "Northern Mariana Islands": "N. Mariana Is.",
+    "Pitcairn Islands": "Pitcairn Is.",
 }
 
 # return a list of names (or single name)
@@ -408,15 +411,15 @@ if __name__ == "__main__":
             dist = geodesic((g_lat, g_lon), (t_lat, t_lon)).km
             
             # 4. Format Output
-            print(f"{case['desc']:<40} | {bearing:>7.2f}° | {dist:>8.1f} km | G({g_lat:>5.1f}, {g_lon:>5.1f}) -> T({t_lat:>5.1f}, {t_lon:>5.1f})")
+            #print(f"{case['desc']:<40} | {bearing:>7.2f}° | {dist:>8.1f} km | G({g_lat:>5.1f}, {g_lon:>5.1f}) -> T({t_lat:>5.1f}, {t_lon:>5.1f})")
             
         except Exception as e:
             print(f"{case['desc']:<40} | ERROR: {str(e)}")
+
+    #print(world['NAME'][250:280])
 
     for country in COUNTRIES_AND_TERRITORIES:
         try:
             coords = get_representative_coordinate(country)
         except Exception as e:
             print(f"Error fetching coordinates for '{country}': {e}")
-
-    
