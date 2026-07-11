@@ -167,3 +167,45 @@ date,dish_name,countries_of_origin,ingredients,comm_average_score,top_guess,perc
 6/25/2026,Madras Curry,United Kingdom,"Oil, onion, garlic, ginger, green chili, tomato, curry leaves (optional), cumin seeds, coriander powder, turmeric powder, chili powder, black pepper, garam masala, meat or poultry or vegetables, salt, lemon juice (optional), yogurt (optional), fresh cilantro (optional)",3295,India,77
 6/25/2026,Piracaldo,Paraguay,"Fish, onions, tomatoes, bell peppers, garlic, oil, water, potatoes, salt, black pepper, parsley, (optional) hot pepper, (optional) green onions, (optional) carrots, (optional) rice, (optional) lemon juice",2278,Spain,13
 6/25/2026,Paloma,Mexico,"Tequila, grapefruit soda, lime juice",4732,Mexico,71
+6/26/2026,Bánh Hỏi,Vietnam,"Rice vermicelli, garlic chives, bean sprouts, pork, shrimp, scallions, fish sauce, sugar, lime juice, chili peppers, shallots, garlic, lettuce, mint, coriander, basil, peanuts.",4276,Vietnam,42
+6/26/2026,Nasi Minyak,Indonesia; Malaysia; Singapore; Thailand,"Basmati rice, ghee, garlic, ginger, star anise, cinnamon stick, cloves, cardamom pods, onions, evaporated milk, water, saffron (optional), rose water (optional), pandan leaves (optional), raisins (optional), fried shallots (optional).",4068,India,63
+6/26/2026,Bakı Qurabiyyəsi,Azerbaijan,"Flour, butter, sugar, eggs, vanilla, lemon zest, powdered sugar, (optional: walnuts, almonds, pistachios)",2348,United Kingdom,25
+6/27/2026,Surf And Turf,United States,"Steak, lobster, butter, garlic, black pepper, salt, olive oil, lemon, parsley, thyme, (optional shrimp), (optional crab), (optional béarnaise sauce), (optional mushrooms), (optional potatoes)",4658,United States,67
+6/27/2026,Bhoonja,India,"Rice, puffed rice, lentils, peanuts, chickpea flour, turmeric, cumin seeds, coriander seeds, salt, chili powder, black mustard seeds, curry leaves, vegetable oil, chilies, ginger, garlic, onions, green peas (optional), cashews (optional), raisins (optional), fennel seeds (optional).",4614,India,66
+6/27/2026,Ul Boov,Mongolia,"Flour, sugar, water, yeast, egg, butter, sheep fat, salt, baking powder, (optional) milk, (optional) vanilla extract, (optional) raisins.",3804,Mongolia,40
+6/28/2026,Hermelín cheese,Czechia,"Cow's milk, oil, onion, garlic, pepper, paprika, chili peppers, herbs, bay leaves, beer (optional), mustard (optional), honey (optional).",3128,France,62
+6/28/2026,Saleeg,Saudi Arabia,"Chicken or lamb, rice, milk, water, butter, cardamom, cinnamon, clove, Bay leaf, black lime, onion, garlic, salt, black pepper, (optional: saffron, ghee, chicken broth, lemon, ginger, tomato).",2831,India,37
+6/28/2026,B-52 cocktail,Canada,"Coffee liqueur, Irish cream, orange liqueur, whipped cream (optional)",4013,Ireland,53
+6/29/2026,Olomoucké Tvarůžky,Czechia,"Curd cheese, salt, water, yeast (optional), milk (optional), spices (optional).",3264,France,22
+6/29/2026,Durus Kura,Bangladesh; Myanmar,"Chicken, turmeric, cardamom, cloves, cinnamon, bay leaves, yogurt, garlic, ginger, onion, chili, salt, oil, water, rice, cilantro (optional), mint (optional).",3434,India,44
+6/29/2026,Blueberry Tea,Canada,"Amaretto, orange liqueur, hot black tea, orange slice (optional), honey (optional), cinnamon stick (optional)",4014,United Kingdom,37
+6/30/2026,Pieds Paquets,France,"Lamb trotters, sheep tripe, onions, garlic, white wine, tomatoes, olive oil, salt, pepper, bouquet garni, parsley, (optional) carrots, (optional) bacon, (optional) potatoes, (optional) celery.",4387,France,43
+6/30/2026,Arroz Caldoso,Spain,"Rice, chicken broth, onions, garlic, tomatoes, bell peppers, saffron, olive oil, chicken, fish, shellfish, white wine, peas, paprika, bay leaf, parsley, salt, pepper, (optional: shrimp), (optional: chorizo), (optional: mussels), (optional: squid), (optional: clams).",4394,Spain,51
+6/30/2026,Grogue,Cape Verde,"Sugarcane, yeast, water.",1411,Jamaica,14
+7/1/2026,Mititei,Romania,"Ground beef, ground pork, ground lamb, garlic, black pepper, salt, thyme, paprika, baking soda, beef broth, water, oil, (optional: coriander, allspice).",3202,Germany,29
+7/1/2026,Paardenrookvlees,Belgium,"Horse meat, salt, curing salt, smoke, black pepper (optional)",3115,Mongolia,21
+7/1/2026,Tibok-tibok,Philippines,"Carabao milk, cornstarch, sugar, salt, pandan leaves, coconut cream, latik (optional).",3940,Philippines,33
+7/2/2026,Ossobuco,Italy,"Veal shanks, onion, carrot, celery, garlic, white wine, beef broth, tomato, olive oil, butter, lemon zest, parsley.",4422,Italy,43
+7/2/2026,Acheke,Benin; Ghana; Togo; Ivory Coast,"Cassava, palm oil, fish, tomatoes, onions, habanero peppers, garlic, lime, salt, (optional) chicken, (optional) beef, (optional) shrimp, (optional) vegetables, (optional) bouillon cubes.",3056,Brazil,15
+7/2/2026,Crumpet,United Kingdom,"Flour, water, milk, yeast, baking powder, sugar, salt, butter",4743,United Kingdom,77
+7/3/2026,Tater Tots,United States,"Potatoes, vegetable oil, salt, pepper, flour (optional), garlic powder (optional), onion powder (optional), cheese (optional), breadcrumbs (optional).",4886,United States,87
+7/3/2026,Cherry Kebab,Syria,"Cherries, lamb or beef, onions, ghee or butter, pine nuts, salt, black pepper, pomegranate molasses, cinnamon, sugar, bread or rice (optional), sumac (optional).",3144,Iran,17
+7/3/2026,Chocolate Crackles,Australia; New Zealand,"Rice bubbles, cocoa powder, coconut oil or Copha, desiccated coconut, powdered sugar, (optional) sprinkles, (optional) dried fruit.",4007,Australia,19
+7/4/2026,Spaghetti Alle Vongole,Italy,"Spaghetti, clams, olive oil, garlic, white wine, parsley, salt, pepper, crushed red pepper flakes (optional), lemon (optional), butter (optional), tomatoes (optional).",4862,Italy,84
+7/4/2026,Pilgrim Sandwich,United States,"Turkey, stuffing, cranberry sauce, gravy, bread, mayonnaise (optional), lettuce (optional), tomato (optional).",4792,United States,79
+7/4/2026,Daiquiri,Cuba,"White rum, lime juice, sugar, ice, fruit puree (optional), bitters (optional), simple syrup (optional)",3627,Cuba,21
+7/5/2026,Queso Frito,Nicaragua; Puerto Rico; Mexico; Costa Rica; El Salvador; Venezuela; Dominican Republic,"Fresh white cheese, oil, flour (optional), eggs (optional), herbs (optional), spices (optional)",4283,Mexico,25
+7/5/2026,Tilsit Cheese,Russia; Germany,"Cow's milk, bacterial cultures, rennet, salt, annatto (optional).",3928,France,32
+7/5/2026,Pan De Coco,Philippines,"Coconut milk, flour, sugar, yeast, butter, eggs, desiccated coconut, salt, water, vanilla (optional).",4004,Philippines,35
+7/6/2026,SubDog,Canada,"Footlong sandwich bread, Schneider’s all-beef hot dog, optional standard subway toppings",4426,United States,87
+7/6/2026,Gan Mianpi,China,"Wheat flour, water, salt, mung bean starch, gluten, chili oil, soy sauce, black vinegar, garlic, cucumber, bean sprouts, sesame paste (optional), crushed peanuts (optional), cilantro (optional)",4318,China,47
+7/6/2026,Whoopie Pie,United States,"Flour, sugar, baking powder, baking soda, salt, cocoa powder, butter, eggs, vanilla extract, milk, buttermilk, shortening, confectioners' sugar, marshmallow fluff, (optional) chocolate chips, (optional) cream cheese.",4511,United States,45
+7/7/2026,Galchi-jorim,North Korea; South Korea,"Hairtail fish, radish, soy sauce, garlic, ginger, green onion, chili powder, chili pepper, sugar, sesame oil, water, (optional) tofu, (optional) potato, (optional) onion, (optional) rice wine",4369,South Korea,45
+7/7/2026,Khoya Paneer,India,"Paneer, khoya, onion, tomato, ginger, garlic, green chili, cumin seeds, turmeric powder, red chili powder, garam masala, coriander powder, salt, ghee, cream (optional), cashew paste (optional), coriander leaves.",4880,India,92
+7/7/2026,Lörtsy,Finland,"Wheat flour, milk, egg, sugar, salt, butter, yeast, minced meat or rice porridge, onion, allspice, black pepper, (optional: apples, raisins, cinnamon, cream cheese, jam).",3410,United Kingdom,37
+7/8/2026,Chicken Chigirtma,Azerbaijan,"Chicken, onions, eggs, butter, salt, pepper, dill, (optional) garlic, (optional) saffron, (optional) yogurt, (optional) lemon juice.",2694,India,18
+7/8/2026,Bacalhau À Zé Do Pipo,Portugal,"Salted cod, potatoes, onions, mayonnaise, olive oil, garlic, milk, white pepper, black olives, parsley, lemon juice, butter, cream, (optional) hard-boiled eggs, (optional) grated cheese, (optional) bay leaf.",3767,United Kingdom,27
+7/8/2026,Jaffa Cakes,United Kingdom,"Sugar, flour, eggs, orange-flavored jelly, dark chocolate, butter, baking powder, milk (optional), orange zest (optional), vanilla extract (optional).",4540,United Kingdom,59
+7/9/2026,Kyabetsu Tarō,Japan,"Corn grits, flour, vegetable oil, sugar, salt, aonori seaweed, sauce powder, seasoning, yeast extract, spices, starch, (optional: powdered seaweed, soy sauce powder, flavor enhancers)",4563,Japan,62
+7/9/2026,Pindjur,Bulgaria; Serbia; North Macedonia,"Red bell peppers, eggplant, tomatoes, garlic, vegetable oil, salt, chili peppers (optional), vinegar (optional), sugar (optional).",3322,Italy,21
+7/9/2026,O-aew,Thailand,"Jelly, red bean, ice, syrup, basil seeds (optional), fruit toppings (optional).",3306,Philippines,18
