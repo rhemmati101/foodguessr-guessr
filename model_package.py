@@ -31,17 +31,21 @@ class ModelPackage():
 
     # run model on data from after data version up until current date, add results to a corresponding csv file
     # if replace is False, keep existing results in the csv file and append new results
-    def update_model_scores(self, replace=False, model_scores_dir_path="model_scores"):
+    def update_model_scores(self, run_model_func, kwargs=None, replace=False, model_scores_dir_path="model_scores"):
         save_path = os.path.join(model_scores_dir_path, f"{self.name}_scores.csv")
         if replace or not os.path.exists(save_path):
-            # Create a new DataFrame with the scores for the model
             scores_df = pd.DataFrame(columns=["date", "first_try_guesses", "scores", "border_scores", "geodist_scores", "geoall_scores"])
         else:
-            # Load existing scores from the CSV file
             scores_df = pd.read_csv(save_path)
 
-        # run the models or something, idk?
+        # run model on new data (or all if replace)
+        if not replace:
+            dates_to_run = []
+        else:
+            dates_to_run = []
 
+        for date in dates_to_run:
+            run_model_func(date, kwargs)   # NOT GOING TO WORK
 
     def get_stats_for_date_range(self, start_month=None, start_year=None, end_month=None, end_year=None):
         month_after_training_date = datetime.strptime(self.data_version, "%m_%Y")
