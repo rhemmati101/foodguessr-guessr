@@ -248,3 +248,39 @@ date,dish_name,countries_of_origin,ingredients,comm_average_score,top_guess,perc
 7/22/2026,Oeuf Mayonnaise,France,"Eggs, mayonnaise, mustard, vinegar, salt, pepper, chives (optional), parsley (optional), lettuce (optional).",4538,France,57
 7/22/2026,Milho Frito,Portugal,"Cornmeal, water, garlic, olive oil, kale, salt, pepper, pork fat, chorizo (optional), cheese (optional).",3797,Spain,23
 7/22/2026,Swiss Lemonade,Brazil,"Lime, water, sugar, ice, condensed milk (optional), sparkling water (optional), mint leaves (optional)",3735,Brazil,30
+7/23/2026,Bánh Gối,Vietnam,"Pork, shrimp, wood ear mushrooms, glass noodles, onion, carrot, jicama, salt, pepper, sugar, fish sauce, shallot, garlic, egg, wheat flour, rice flour, cooking oil, water, vinegar, chili, lettuce, mint, coriander, basil (optional), lime (optional).",4118,China,28
+7/23/2026,Trinxat,Spain,"Cabbage, potatoes, olive oil, garlic, salt, black pepper, bacon (optional), pork fat (optional), parsley (optional).",3681,Italy,19
+7/23/2026,Danpatjuk,North Korea; South Korea,"Red beans, glutinous rice flour, water, sugar, salt, chestnuts (optional), rice cake balls (optional), pine nuts (optional)",3854,South Korea,29
+7/24/2026,Fugu-nabe,Japan,"Pufferfish, kombu, tofu, napa cabbage, shiitake mushrooms, enoki mushrooms, chrysanthemum leaves, spring onions, carrots (optional), daikon (optional)",4865,Japan,88
+7/24/2026,Scallop roll,United States,"Scallops, sandwich rolls, lettuce, tomato, tartar sauce, mayonnaise (optional), pickles (optional), lemon juice (optional), butter (optional), breadcrumbs (optional), flour (optional), egg (optional), salt, black pepper, hot sauce (optional)",4616,United States,63
+7/24/2026,Lemon Delicious Pudding,Australia; New Zealand,"lemons, butter, sugar, eggs, flour, milk, cream (optional), icing sugar (optional)",3562,France,37
+7/25/2026,Hokkien Fried Rice,Hong Kong,"Rice, shrimp, chicken, barbecue pork, peas, carrots, eggs, onions, garlic, soy sauce, oyster sauce, sesame oil, salt, pepper, spring onions, bean sprouts (optional), mushrooms (optional), bell peppers (optional).",3247,China,46
+7/25/2026,Mish-mash,Bulgaria,"Eggs, tomatoes, peppers, onions, feta cheese, parsley (optional), salt, black pepper.",3349,Greece,48
+7/25/2026,Tamina,Algeria,"Semolina, butter, honey, almonds (optional), cinnamon (optional).",2904,Italy,21
+7/26/2026,Lihapiirakka,Finland,"All-purpose flour, butter, milk, yeast, sugar, salt, minced meat, rice, onion, black pepper, egg, (optional) nutmeg, (optional) allspice.",3319,United Kingdom,27
+7/26/2026,Butterkäse,Germany,"Cow's milk, cream, salt, culture, rennet.",4040,France,30
+7/26/2026,Tongba,Nepal; India,"Millet, water, yeast.",3177,China,20
+7/27/2026,Sopa De Lima,Mexico,"Chicken broth, lime juice, tortilla strips, chicken breast, tomatoes, onion, garlic, cilantro, oregano, chili peppers, avocado (optional), bell peppers (optional).",4787,Mexico,79
+7/27/2026,Zwieback,Netherlands; Russia,"Flour, yeast, milk, water, sugar, salt, butter, (eggs optional), (lard optional).",3468,United Kingdom,32
+7/27/2026,Kue Ape,Indonesia,"Rice flour, all-purpose flour, coconut milk, sugar, salt, pandan juice (optional), baking powder (optional), vanilla extract (optional), food coloring (optional)",4032,Philippines,24
+7/28/2026,Caprese Salad,Italy,"Tomatoes, mozzarella cheese, fresh basil, olive oil, salt, black pepper, balsamic vinegar (optional).",4960,Italy,96
+7/28/2026,Lemon Duck,China,"Duck, lemon, ginger, garlic, soy sauce, sugar, salt, sesame oil, rice wine vinegar, scallions, chili peppers (optional), star anise (optional), coriander (optional).",4731,China,78
+7/28/2026,Milk-cream Strudel,Austria; Hungary,"Flour, milk, cream, sugar, eggs, butter, salt, lemon zest, vanilla extract, raisins (optional), cinnamon (optional), powdered sugar (optional).",3689,France,32
+7/29/2026,Lumpiang Ubod,Philippines,"Heart of palm, garlic, onions, carrots, bamboo shoots, shrimp, pork, lettuce, lumpia wrappers, soy sauce, fish sauce, vinegar, salt, pepper, sugar, peanuts, garlic sauce (optional), sweet chili sauce (optional).",3839,Philippines,28
+7/29/2026,Hangikjöt,Iceland,"Lamb, salt, sugar, juniper, birch, water, (optional) cloves, (optional) bay leaves.",3390,United Kingdom,24
+7/29/2026,Puits D'amour,France,"Puff pastry, flour, butter, sugar, eggs, milk, vanilla, cream, salt, water, jam (optional), honey (optional).",4575,France,53
+7/30/2026,Bánh Khọt,Vietnam,"Rice flour, coconut milk, turmeric powder, water, salt, scallions, shrimp, mung beans (optional), pork (optional), bean sprouts (optional), herbs (optional), lettuce (optional), fish sauce, pickled carrots (optional), pickled daikon (optional), chili (optional)",4217,Vietnam,37
+7/30/2026,Pancit habhab,Philippines,"Miki noodles, pork, pork liver (optional), shrimp (optional), garlic, onion, carrots, chayote, green beans, cabbage, soy sauce, fish sauce, black pepper, vinegar, cooking oil, banana leaf (optional for serving)",4083,Philippines,36
+7/30/2026,Scovardă,Romania,"Wheat flour, water, salt, lard, sugar (optional), milk (optional).",2895,France,52
+7/31/2026,Idiazabal Cheese,Spain,"Raw sheep's milk, salt, rennet, preservatives (optional), smokiness (optional).",4041,France,32
+7/31/2026,Lemon Chicken,United States; Hong Kong,"Chicken, lemon juice, lemon zest, sugar, soy sauce, garlic, ginger, chicken broth, cornstarch, oil, salt, pepper, eggs (optional), flour (optional), vinegar (optional), honey (optional), green onions (optional), sesame seeds (optional)",4031,China,42
+7/31/2026,Chelsea Bun,United Kingdom,"Flour, yeast, milk, butter, sugar, egg, salt, currants, raisins, brown sugar, cinnamon, mixed spice (optional), apricot jam, icing sugar (optional)",4325,United Kingdom,35
+8/1/2026,Muneo-sukhoe,North Korea; South Korea,"Octopus, salt, vinegar, mustard paste, soy sauce, sesame seeds, garlic (optional), cucumber (optional), carrot (optional), scallion (optional), sugar (optional)",4036,Japan,63
+8/1/2026,Kabanos,Poland,"pork, salt, black pepper, garlic, caraway seeds, sugar, nutmeg, paprika (optional), juniper berries (optional)",4167,Germany,33
+8/1/2026,Khanom Thuai,Thailand,"Coconut milk, rice flour, tapioca flour, sugar, water, pandan leaves, coconut cream, salt, (optional) jasmine essence.",4011,Philippines,25
+8/2/2026,Torly,Egypt,"Lamb or beef, potatoes, zucchini, carrots, tomatoes, bell peppers, onions, garlic, salt, black pepper, olive oil, tomato paste, cilantro, cumin, coriander, paprika, lemon juice, chickpeas, eggplants (optional), green beans (optional), peas (optional), cabbage (optional).",3381,Turkey,20
+8/2/2026,Peppersoup,Nigeria; Sierra Leone; Ghana,"Meat or fish, water, onions, garlic, ginger, peppersoup spice mix, chili pepper, seasoning cubes, salt, basil leaves, crayfish (optional), scent leaves (optional).",3035,Jamaica,10
+8/2/2026,Dulce De Frijol,Mexico; Guatemala,"Black beans, sugar, cinnamon, water, vanilla (optional), milk (optional), clove (optional), orange peel (optional)",3953,Mexico,24
+8/3/2026,Cacciucco,Italy,"Fish, shellfish, olive oil, garlic, tomatoes, white wine, chili pepper, parsley, crusty bread, (optional) onion, (optional) celery, (optional) carrot.",4518,Italy,50
+8/3/2026,Nasi Goreng Trafasie,Suriname,"Rice, chicken, shrimp (optional), onion, garlic, celery, tomato, soy sauce, chili pepper, egg (optional), green peas (optional), carrot (optional), bell pepper (optional), scallion (optional)",1367,China,32
+8/3/2026,Aachener Printen,Germany,"Rye flour, sugar, syrup, cinnamon, cloves, cardamom, aniseed, coriander, allspice, nuts (optional), candied peel (optional), chocolate coating (optional).",4061,Germany,26
