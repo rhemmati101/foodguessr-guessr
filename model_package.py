@@ -32,17 +32,16 @@ class ModelPackage():
     # run model on data from after data version up until current date, add results to a corresponding csv file
     # if replace is False, keep existing results in the csv file and append new results
     def update_model_scores(self, run_model_func, kwargs=None, replace=False, model_scores_dir_path="model_scores"):
+        test_data = pd.read_csv("data/daily_data.csv")
+
         save_path = os.path.join(model_scores_dir_path, f"{self.name}_scores.csv")
         if replace or not os.path.exists(save_path):
             scores_df = pd.DataFrame(columns=["date", "first_try_guesses", "scores", "border_scores", "geodist_scores", "geoall_scores"])
+
+            # all dates from data version up until most recent test data
+            dates_to_run = []
         else:
             scores_df = pd.read_csv(save_path)
-
-        # run model on new data (or all if replace)
-        if not replace:
-            dates_to_run = []
-        else:
-            dates_to_run = []
 
         for date in dates_to_run:
             run_model_func(date, kwargs)   # NOT GOING TO WORK
