@@ -44,6 +44,8 @@ COUNTRIES_AND_TERRITORIES = {
         "Bermuda", "British Virgin Islands", "Falkland Islands", "Montserrat", "Turks and Caicos Islands", "Virgin Islands",
         "Guadeloupe", "Cayman Islands", "Republic of the Congo", "DR Congo", "American Samoa",  "French Polynesia",
         "Cocos (Keeling) Islands", "Christmas Island", "Guam", "Northern Mariana Islands", "Pitcairn Islands", "Svalbard and Jan Mayen",
+        
+        "Contiguous United States", "Hawaii", "Alaska", "England", "Scotland", "Wales", "Northern Ireland",
     }
 
 def extract_dish_and_countries(page_text):
