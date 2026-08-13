@@ -106,8 +106,9 @@ top_guesses = []
 percent_agreements = []
 
 for elem in driver.find_elements(By.XPATH, "//*[contains(text(), 'avg')]"):
-    print(repr(elem.text))
-    comm_averages.append(int(str(elem.text).lstrip("avg: ").replace(",", "")))
+    avg_string = str(elem.text).lstrip("avg").replace(",", "").strip()
+    if avg_string.isdigit():
+        comm_averages.append(int(avg_string))
 
 for elem in driver.find_elements(By.XPATH, "//*[contains(text(), 'top guess')]"):
     text = elem.text
