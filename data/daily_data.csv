@@ -293,3 +293,21 @@ date,dish_name,countries_of_origin,ingredients,comm_average_score,top_guess,perc
 8/6/2026,Vieux Carré,Contiguous United States,"Rye whiskey, cognac, sweet vermouth, Benedictine, Angostura bitters, Peychaud's bitters, lemon peel (optional), cherry (optional)",4274,Contiguous United States,52
 8/6/2026,Salmorejo,Spain,"Tomatoes, bread, garlic, olive oil, vinegar, salt, (optional) hard-boiled eggs, (optional) Serrano ham",4672,Spain,65
 8/6/2026,Café Liégeois,France,"Coffee, vanilla ice cream, whipped cream, sugar (optional), chocolate shavings (optional).",4265,Italy,45
+8/7/2026,Herve,Belgium,"Milk, bacterial cultures, rennet, salt.",3935,France,59
+8/7/2026,Koi,Malaysia; Cambodia; Vietnam; Myanmar; Laos; Thailand,"Raw fish, lime juice, salt, chili, garlic, shallots, mint leaves, roasted rice powder, fish sauce, lemongrass, coriander leaves, spring onions, sugar, (optional) cilantro, (optional) ground roasted peanuts, (optional) banana flower.",4232,Thailand,28
+8/7/2026,Jaecheop-guk,North Korea; South Korea,"Jaecheop (small freshwater clams), water, green onions, garlic, soy sauce, doenjang (fermented soybean paste), egg (optional), sesame oil (optional), red chili pepper (optional), enoki mushrooms (optional).",4660,South Korea,73
+8/8/2026,Macarona Bil-bechamel,Egypt,"Pasta, ground beef, onion, garlic, tomato sauce, béchamel sauce, butter, flour, milk, cheese, salt, pepper, nutmeg (optional), cinnamon (optional), allspice (optional), bay leaves (optional), chili flakes (optional).",3153,Italy,55
+8/8/2026,Lontong,Indonesia,"Rice, banana leaves, water, coconut milk, salt, sugar, peanuts (optional), boiled eggs (optional), tofu (optional), tempeh (optional), curry spices (optional), vegetables (optional).",3991,Indonesia,22
+8/8/2026,Passion Fruit Mousse,Brazil; Portugal,,3659,Brazil,21
+8/9/2026,Weisslacker,Germany,"Cow's milk, salt, rennet, bacterial cultures, cream (optional).",4550,Germany,54
+8/9/2026,Scotch Woodcock,England,"Eggs, butter, cream, anchovies, bread, cayenne pepper, black pepper, salt, parsley (optional)",4050,England,20
+8/9/2026,Licitar Hearts,Croatia; Slovenia,"Flour, sugar, honey, water, baking soda, eggs, lemon zest, ground anise (optional), ground cinnamon (optional), ground cloves (optional), food coloring (optional).",3326,Mexico,20
+8/10/2026,Pizza Marinara,Italy,"Flour, water, yeast, salt, tomatoes, garlic, oregano, extra virgin olive oil, fresh basil (optional), red pepper flakes (optional)",4879,Italy,89
+8/10/2026,Xingal,Azerbaijan,"Flour, water, egg, salt, meat, onion, butter, broth, black pepper, sumac (optional), chopped herbs (optional)",2874,Turkey,19
+8/10/2026,Vetkoek,South Africa,"Flour, yeast, sugar, salt, warm water, milk, oil, minced meat (optional), curry powder (optional), onions (optional), tomato paste (optional), spices (optional).",2757,India,29
+8/11/2026,Murukku,India,"Rice flour, urad dal flour, butter, sesame seeds, cumin seeds, asafoetida, salt, water, (optional) ajwain, (optional) chili powder.",4385,India,63
+8/11/2026,Yakimochi,Japan,"Glutinous rice, sugar, salt, soy sauce, water, red bean paste (optional).",4603,Japan,54
+8/11/2026,Planter's Punch,Jamaica,"Dark rum, lime juice, sugar, grenadine (optional), Angostura bitters (optional), pineapple juice (optional), orange juice (optional), soda water (optional), nutmeg (optional)",3996,Jamaica,43
+8/12/2026,Chicken Maryland,Contiguous United States,"chicken, flour, breadcrumbs (optional), salt, black pepper, cooking oil, bacon, banana, pineapple (optional), corn fritter, gravy",3969,Contiguous United States,34
+8/12/2026,Yuvarlakia,Greece,"Ground meat, rice, onion, egg, lemon juice, dill, parsley, flour, water, salt, pepper, olive oil, (optional: oregano, mint)",3676,Greece,24
+8/12/2026,Ji Dan Gao,Taiwan,"Eggs, sugar, cake flour, baking powder, milk, vanilla extract (optional), oil (optional).",3026,Japan,37
