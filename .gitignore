@@ -1,3 +1,4 @@
 chrome_driver/
 __pycache__
 models/
+data/
